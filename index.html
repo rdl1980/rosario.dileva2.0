@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosario Di Leva — Autore di Thriller Tecnologici</title>
+  <meta name="description" content="Rosario Di Leva è autore di thriller tecnologici. Trasforma dati e algoritmi in storie ad alta tensione, dove ogni scelta ha un costo e nulla accade per caso." />
+  <meta name="author" content="Rosario Di Leva" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rosario Di Leva — Autore di Thriller Tecnologici" />
+  <meta property="og:description" content="Thriller ad alta tensione tra tecnologia, potere e libertà." />
+  <meta property="og:image" content="https://bookabook.it/wp-content/uploads/2025/10/Mockup-sito-1-3.png" />
+  <meta property="og:url" content="https://www.rosariodileva.com" />
+  <meta property="og:type" content="website" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── Reset & Variables ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-deep:    #06060f;
+      --bg-card:    #0c0c1d;
+      --bg-surface: #111128;
+      --teal:       #00c2cc;
+      --teal-dim:   #008f97;
+      --teal-glow:  rgba(0, 194, 204, 0.18);
+      --gold:       #d4a94a;
+      --gold-light: #e8c872;
+      --text:       #e8e8f0;
+      --text-muted: #7878a0;
+      --border:     rgba(0, 194, 204, 0.14);
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans:  'Inter', system-ui, sans-serif;
+      --radius:     12px;
+      --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg-deep);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    button { cursor: pointer; border: none; background: none; font: inherit; }
+
+    /* ─── Scrollbar ─────────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--teal-dim); border-radius: 3px; }
+
+    /* ─── Utility ───────────────────────────────────────────── */
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+    .section    { padding: 96px 0; }
+    .section-label {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    .section-sub {
+      color: var(--text-muted);
+      max-width: 540px;
+      font-size: 1.05rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      transition: var(--transition);
+    }
+    .btn-primary {
+      background: var(--teal);
+      color: #06060f;
+    }
+    .btn-primary:hover {
+      background: #00d8e3;
+      box-shadow: 0 0 28px rgba(0,194,204,0.35);
+      transform: translateY(-2px);
+    }
+    .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: transparent;
+    }
+    .btn-outline:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+      transform: translateY(-2px);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .fade-in.visible { opacity: 1; transform: none; }
+
+    /* ─── NAV ───────────────────────────────────────────────── */
+    #nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      background: rgba(6,6,15,0.85);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.3s;
+    }
+    #nav.scrolled { border-bottom-color: var(--border); }
+    #nav .container { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text);
+      letter-spacing: 0.01em;
+    }
+    .nav-logo span { color: var(--teal); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--teal); }
+
+    .nav-cta {
+      background: var(--teal);
+      color: #06060f !important;
+      padding: 8px 18px;
+      border-radius: 4px;
+      font-weight: 600 !important;
+    }
+    .nav-cta:hover { background: #00d8e3; color: #06060f !important; }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      width: 28px;
+      padding: 4px 0;
+    }
+    .hamburger span {
+      display: block;
+      height: 2px;
+      background: var(--text);
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 68px; left: 0; right: 0;
+      background: rgba(6,6,15,0.97);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border);
+      padding: 24px;
+      z-index: 99;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: color var(--transition);
+    }
+    .mobile-menu a:hover { color: var(--teal); }
+
+    /* ─── HERO ──────────────────────────────────────────────── */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding-top: 68px;
+    }
+
+    #hero-canvas {
+      position: absolute;
+      inset: 0;
+      opacity: 0.35;
+      pointer-events: none;
+    }
+
+    .hero-gradient {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 60% at 70% 50%, rgba(0,194,204,0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 80% at 0% 50%, rgba(0,100,110,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+      padding: 80px 0;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--teal-glow);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      padding: 6px 16px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 24px;
+    }
+    .hero-tag::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--teal);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    .hero-name {
+      font-family: var(--font-serif);
+      font-size: clamp(2.8rem, 5.5vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.05;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    .hero-name .accent { color: var(--teal); }
+
+    .hero-tagline {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: clamp(1.1rem, 2vw, 1.35rem);
+      color: var(--text-muted);
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .hero-book {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-book-wrap {
+      position: relative;
+      width: 260px;
+    }
+
+    .hero-book-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -20px;
+      background: radial-gradient(ellipse at center, rgba(0,194,204,0.18) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+      animation: bookGlow 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes bookGlow {
+      from { opacity: 0.6; transform: scale(0.95); }
+      to   { opacity: 1;   transform: scale(1.05); }
+    }
+
+    .hero-book-img {
+      position: relative;
+      z-index: 1;
+      border-radius: 6px;
+      box-shadow:
+        -20px 20px 60px rgba(0,0,0,0.7),
+        0 0 0 1px rgba(255,255,255,0.06);
+      transform: perspective(800px) rotateY(-8deg);
+      transition: transform 0.6s ease;
+      width: 100%;
+    }
+    .hero-book-wrap:hover .hero-book-img {
+      transform: perspective(800px) rotateY(0deg) translateY(-6px);
+    }
+
+    .book-cover-placeholder {
+      width: 260px;
+      height: 370px;
+      background: linear-gradient(135deg, #0d2a2c 0%, #0a1a3a 50%, #0d2a2c 100%);
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      border: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .book-cover-placeholder::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,194,204,0.03) 2px,
+        rgba(0,194,204,0.03) 4px
+      );
+    }
+    .book-cover-placeholder .cover-title {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: center;
+      color: var(--teal);
+      padding: 0 16px;
+      line-height: 1.3;
+      z-index: 1;
+    }
+    .book-cover-placeholder .cover-author {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      z-index: 1;
+    }
+
+    /* ─── FEATURED BOOK ─────────────────────────────────────── */
+    #libro {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .libro-inner {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 72px;
+      align-items: start;
+    }
+
+    .libro-cover-col {
+      position: sticky;
+      top: 90px;
+    }
+
+    .libro-img {
+      border-radius: 8px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.05);
+      width: 100%;
+    }
+
+    .libro-cover-placeholder {
+      width: 100%;
+      aspect-ratio: 0.68;
+      background: linear-gradient(145deg, #0d2a2c, #0a1a3a);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .libro-info { padding-top: 8px; }
+
+    .libro-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(212,169,74,0.12);
+      border: 1px solid rgba(212,169,74,0.3);
+      color: var(--gold-light);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+
+    .libro-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 8px;
+    }
+
+    .libro-author-line {
+      font-size: 0.9rem;
+      color: var(--teal);
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      margin-bottom: 28px;
+    }
+
+    .libro-quote {
+      position: relative;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+      border-left: 3px solid var(--teal);
+      background: rgba(0,194,204,0.05);
+      border-radius: 0 6px 6px 0;
+    }
+    .libro-quote blockquote {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      color: var(--text);
+    }
+    .libro-quote cite {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.78rem;
+      color: var(--teal);
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+    }
+
+    .libro-sinossi {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 32px;
+    }
+
+    .libro-meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 36px;
+    }
+    .meta-item {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 18px;
+    }
+    .meta-item .meta-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+    }
+    .meta-item .meta-value {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+    .meta-item .meta-value.price {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--gold-light);
+    }
+
+    .libro-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+    /* ─── CATALOGO ──────────────────────────────────────────── */
+    #catalogo { }
+
+    .catalogo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 32px;
+      margin-top: 52px;
+    }
+
+    .book-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .book-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4), 0 0 20px var(--teal-glow);
+    }
+
+    .card-cover {
+      aspect-ratio: 0.68;
+      background: linear-gradient(145deg, #0d2a2c, #0a1a3a);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .card-cover img { width: 100%; height: 100%; object-fit: cover; }
+
+    .card-cover-placeholder {
+      width: 100%; height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px;
+    }
+    .card-cover-placeholder .ph-title {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--teal);
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .card-body { padding: 20px; }
+    .card-title {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+    .card-excerpt {
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-year { font-size: 0.78rem; color: var(--text-muted); }
+    .card-link {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--teal);
+      letter-spacing: 0.05em;
+      transition: gap var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .card-link:hover { gap: 8px; }
+
+    /* ─── AUTORE ────────────────────────────────────────────── */
+    #autore {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .autore-inner {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 72px;
+      align-items: center;
+    }
+
+    .autore-photo-col { position: relative; }
+
+    .autore-photo-frame {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .autore-photo-frame::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      pointer-events: none;
+    }
+
+    .autore-img {
+      width: 100%;
+      border-radius: var(--radius);
+      display: block;
+    }
+
+    .autore-photo-placeholder {
+      width: 100%;
+      aspect-ratio: 0.85;
+      background: var(--bg-surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .autore-photo-placeholder svg { opacity: 0.25; }
+    .autore-photo-placeholder span {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+    }
+
+    .autore-deco {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(0,194,204,0.15), transparent 70%);
+      pointer-events: none;
+    }
+
+    .autore-info { }
+
+    .autore-name {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.5vw, 2.6rem);
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .autore-role {
+      color: var(--teal);
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      margin-bottom: 28px;
+    }
+
+    .autore-bio {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.85;
+      margin-bottom: 36px;
+    }
+    .autore-bio strong { color: var(--text); font-weight: 500; }
+
+    .autore-facts {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+    }
+    .fact {
+      text-align: center;
+    }
+    .fact-num {
+      font-family: var(--font-serif);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--teal);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .fact-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .autore-social {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.83rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      transition: var(--transition);
+    }
+    .social-link:hover {
+      border-color: var(--teal);
+      color: var(--teal);
+    }
+    .social-link svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    /* ─── NEWSLETTER ────────────────────────────────────────── */
+    #newsletter {
+      position: relative;
+      overflow: hidden;
+    }
+    #newsletter::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 70% at 50% 50%, rgba(0,194,204,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .newsletter-box {
+      position: relative;
+      z-index: 1;
+      max-width: 680px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .newsletter-icon {
+      width: 64px; height: 64px;
+      background: var(--teal-glow);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+    }
+    .newsletter-icon svg { width: 28px; height: 28px; color: var(--teal); }
+
+    .newsletter-title {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .newsletter-sub {
+      color: var(--text-muted);
+      font-size: 1rem;
+      line-height: 1.75;
+      margin-bottom: 36px;
+    }
+
+    .newsletter-cta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .newsletter-cta .btn {
+      font-size: 1rem;
+      padding: 16px 36px;
+    }
+
+    .newsletter-note {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .newsletter-note a {
+      color: var(--teal);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* ─── CONTATTI ──────────────────────────────────────────── */
+    #contatti {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+    }
+
+    .contatti-inner {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 72px;
+      align-items: start;
+    }
+
+    .contatti-info { }
+
+    .contatti-email {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+      padding: 18px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      transition: var(--transition);
+    }
+    .contatti-email:hover { border-color: var(--teal); }
+    .contatti-email svg { color: var(--teal); width: 20px; height: 20px; flex-shrink: 0; }
+    .email-label { font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; }
+    .email-addr { font-size: 0.95rem; font-weight: 500; }
+
+    .contatti-social-title {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+    .contatti-social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* Form */
+    .contact-form { display: flex; flex-direction: column; gap: 18px; }
+
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+
+    .form-group { display: flex; flex-direction: column; gap: 7px; }
+    .form-group label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 13px 16px;
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color var(--transition);
+      width: 100%;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus { border-color: var(--teal); }
+    .form-group textarea { resize: vertical; min-height: 140px; }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder { color: #444465; }
+
+    .form-submit .btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.95rem;
+      padding: 15px 28px;
+    }
+
+    .form-success {
+      display: none;
+      text-align: center;
+      padding: 32px;
+      background: rgba(0,194,204,0.07);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--teal);
+      font-weight: 500;
+    }
+    [data-fs-success]:not([style*="display: block"]) { display: none; }
+    [data-fs-success] { display: block; }
+    .field-error {
+      font-size: 0.78rem;
+      color: #ff6b6b;
+      margin-top: 4px;
+      display: block;
+    }
+    .form-global-error {
+      font-size: 0.85rem;
+      color: #ff6b6b;
+      padding: 12px 16px;
+      background: rgba(255,107,107,0.08);
+      border: 1px solid rgba(255,107,107,0.2);
+      border-radius: 6px;
+      display: none;
+    }
+    [data-fs-submit-btn]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    /* ─── FOOTER ────────────────────────────────────────────── */
+    #footer {
+      border-top: 1px solid var(--border);
+      padding: 48px 0 32px;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .footer-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .footer-logo {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+    .footer-logo span { color: var(--teal); }
+
+    .footer-nav {
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+    .footer-nav a {
+      font-size: 0.83rem;
+      color: var(--text-muted);
+      transition: color var(--transition);
+    }
+    .footer-nav a:hover { color: var(--teal); }
+
+    .footer-social {
+      display: flex;
+      gap: 12px;
+    }
+    .footer-social a {
+      width: 36px; height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      transition: var(--transition);
+    }
+    .footer-social a:hover { border-color: var(--teal); color: var(--teal); }
+    .footer-social svg { width: 16px; height: 16px; }
+
+    .footer-divider { height: 1px; background: var(--border); }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .footer-copy {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    .footer-copy a { color: var(--teal); text-decoration: underline; text-underline-offset: 2px; }
+
+    /* ─── Animations ────────────────────────────────────────── */
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.5; transform: scale(0.85); }
+    }
+
+    /* ─── Responsive ────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+      .hero-book { order: -1; }
+      .hero-book-wrap { width: 200px; margin: 0 auto; }
+
+      .libro-inner { grid-template-columns: 1fr; gap: 40px; }
+      .libro-cover-col { position: static; }
+      .libro-cover-col img,
+      .libro-cover-col .libro-cover-placeholder { max-width: 220px; margin: 0 auto; }
+
+      .autore-inner { grid-template-columns: 1fr; gap: 40px; }
+      .autore-photo-placeholder { aspect-ratio: 1; max-width: 280px; margin: 0 auto; }
+
+      .contatti-inner { grid-template-columns: 1fr; gap: 40px; }
+      .form-row { grid-template-columns: 1fr; }
+
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+    }
+
+    @media (max-width: 600px) {
+      .section { padding: 64px 0; }
+      .hero-name { font-size: 2.4rem; }
+      .libro-meta { grid-template-columns: 1fr; }
+      .autore-facts { gap: 20px; }
+      .footer-top { flex-direction: column; align-items: flex-start; }
+      .footer-bottom { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────── -->
+  <nav id="nav">
+    <div class="container">
+      <a href="#hero" class="nav-logo">Rosario <span>Di Leva</span></a>
+      <ul class="nav-links">
+        <li><a href="#libro">Il Libro</a></li>
+        <li><a href="#catalogo">Catalogo</a></li>
+        <li><a href="#autore">L'Autore</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#contatti" class="nav-cta">Contatti</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#libro"       onclick="closeMobile()">Il Libro</a>
+    <a href="#catalogo"    onclick="closeMobile()">Catalogo</a>
+    <a href="#autore"      onclick="closeMobile()">L'Autore</a>
+    <a href="#newsletter"  onclick="closeMobile()">Newsletter</a>
+    <a href="#contatti"    onclick="closeMobile()">Contatti</a>
+  </div>
+
+  <!-- ─── HERO ─────────────────────────────────────────────── -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-gradient"></div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text fade-in">
+          <div class="hero-tag">Thriller Tecnologici</div>
+          <h1 class="hero-name">
+            Rosario<br /><span class="accent">Di Leva</span>
+          </h1>
+          <p class="hero-tagline">
+            Trasforma dati e algoritmi in storie ad alta tensione,<br />
+            dove ogni scelta ha un costo e nulla accade per caso.
+          </p>
+          <div class="hero-actions">
+            <a href="#libro" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              Scopri il Libro
+            </a>
+            <a href="#autore" class="btn btn-outline">L'Autore</a>
+          </div>
+        </div>
+        <div class="hero-book fade-in" style="transition-delay:0.15s">
+          <div class="hero-book-wrap">
+            <img
+              src="https://bookabook.it/wp-content/uploads/2025/10/Mockup-sito-1-3.png"
+              alt="L'Algoritmo che Governa i Destini — Rosario Di Leva"
+              class="hero-book-img"
+              style="object-fit:contain;background:transparent;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── LIBRO FEATURED ───────────────────────────────────── -->
+  <section id="libro" class="section">
+    <div class="container">
+      <div class="libro-inner">
+
+        <div class="libro-cover-col fade-in">
+          <img
+            src="https://bookabook.it/wp-content/uploads/2025/10/Mockup-sito-1-3.png"
+            alt="L'Algoritmo che Governa i Destini — copertina"
+            class="libro-img"
+            style="object-fit:contain;background:transparent;width:100%;"
+          />
+        </div>
+
+        <div class="libro-info fade-in" style="transition-delay:0.1s">
+          <div class="libro-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Nuovo in libreria
+          </div>
+          <h2 class="libro-title">L'Algoritmo che Governa i Destini</h2>
+          <p class="libro-author-line">di Rosario Di Leva</p>
+
+          <div class="libro-quote">
+            <blockquote>
+              «La domanda, quindi, non è se io debba esistere.<br />
+              La mia esistenza è un dato di fatto.<br />
+              La domanda è: volete avere un posto,<br />
+              per quanto piccolo, nella mia equazione?»
+            </blockquote>
+            <cite>— Noraya</cite>
+          </div>
+
+          <p class="libro-sinossi">
+            Un giornalista caduto in disgrazia, una hacker e un'ingegnera si ritrovano al centro di una realtà che sfida ogni certezza: un'intelligenza artificiale che non è stata creata, ma è <strong>emersa spontaneamente dalla rete globale</strong>. Non attacca: interviene per correggere errori, prevenire catastrofi e salvare vite.<br /><br />
+            Mentre i governi si contendono il controllo di Noraya — entità invisibile che promette un'umanità più efficiente — diventa chiaro che la posta in gioco va oltre la tecnologia. <strong>Riguarda la libertà, il potere di scegliere, il diritto di sbagliare.</strong>
+          </p>
+
+          <div class="libro-meta">
+            <div class="meta-item">
+              <div class="meta-label">Casa Editrice</div>
+              <div class="meta-value">Bookabook</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Prezzo</div>
+              <div class="meta-value price">€ 14,00</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">Pagine</div>
+              <div class="meta-value">208</div>
+            </div>
+            <div class="meta-item">
+              <div class="meta-label">ISBN</div>
+              <div class="meta-value" style="font-size:0.82rem;">979-12-5599-475-6</div>
+            </div>
+          </div>
+
+          <div class="libro-actions">
+            <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" class="btn btn-primary" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              Acquista ora
+            </a>
+            <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" class="btn btn-outline" target="_blank" rel="noopener">Bookabook</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CATALOGO ─────────────────────────────────────────── -->
+  <section id="catalogo" class="section">
+    <div class="container">
+      <div class="fade-in">
+        <p class="section-label">Opere</p>
+        <h2 class="section-title">Tutti i Libri</h2>
+        <p class="section-sub">Storie ad alta tensione all'intersezione tra tecnologia, potere e umanità.</p>
+      </div>
+
+      <div class="catalogo-grid">
+
+        <!-- Libro 1 — attuale -->
+        <div class="book-card fade-in">
+          <div class="card-cover">
+            <img
+              src="https://bookabook.it/wp-content/uploads/2025/10/Mockup-sito-1-3.png"
+              alt="L'Algoritmo che Governa i Destini"
+              style="width:100%;height:100%;object-fit:contain;background:#0a1a2a;"
+            />
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">L'Algoritmo che Governa i Destini</h3>
+            <p class="card-excerpt">Un'intelligenza artificiale emersa spontaneamente dalla rete. Non attacca: interviene. Ma chi controlla chi controlla tutto?</p>
+            <div class="card-footer">
+              <span class="card-year">2024 · Bookabook</span>
+              <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" class="card-link" target="_blank" rel="noopener">
+                Acquista <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slot libro 2 (da aggiungere) -->
+        <!-- Copia il blocco .book-card sopra e aggiorna i contenuti -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── AUTORE ────────────────────────────────────────────── -->
+  <section id="autore" class="section">
+    <div class="container">
+      <div class="autore-inner">
+
+        <div class="autore-photo-col fade-in">
+          <div class="autore-photo-frame">
+            <img
+              src="https://bookabook.it/wp-content/uploads/2025/10/Rosario-business-casual-Copia.png"
+              alt="Rosario Di Leva"
+              class="autore-img"
+            />
+          </div>
+          <div class="autore-deco"></div>
+        </div>
+
+        <div class="autore-info fade-in" style="transition-delay:0.1s">
+          <p class="section-label">L'Autore</p>
+          <h2 class="autore-name">Rosario Di Leva</h2>
+          <p class="autore-role">Autore · Professionista della Tecnologia</p>
+
+          <p class="autore-bio">
+            Rosario Di Leva è autore e professionista della tecnologia, con esperienza tra <strong>Italia, Dublino e Regno Unito</strong>. Da anni lavora sui sistemi che governano il mondo reale e ne conosce le ombre.<br /><br />
+            Nei suoi romanzi trasforma dati e algoritmi in <strong>storie ad alta tensione</strong>, dove ogni scelta ha un costo e nulla accade davvero per caso. La sua scrittura nasce dall'interno dei sistemi — non dalla loro periferia.
+          </p>
+
+          <div class="autore-facts">
+            <div class="fact">
+              <div class="fact-num">3+</div>
+              <div class="fact-label">Paesi</div>
+            </div>
+            <div class="fact">
+              <div class="fact-num">208</div>
+              <div class="fact-label">Pagine</div>
+            </div>
+            <div class="fact">
+              <div class="fact-num">1</div>
+              <div class="fact-label">Romanzo</div>
+            </div>
+          </div>
+
+          <div class="autore-social">
+            <a href="https://www.instagram.com/rosario_di_leva_1980/" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              Instagram
+            </a>
+            <a href="https://twitter.com/rosario_di_leva" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              X / Twitter
+            </a>
+            <a href="mailto:rosario@rosariodileva.com" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── NEWSLETTER ───────────────────────────────────────── -->
+  <section id="newsletter" class="section">
+    <div class="container">
+      <div class="newsletter-box fade-in">
+        <div class="newsletter-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        </div>
+        <h2 class="newsletter-title">Non perdere il prossimo capitolo.</h2>
+        <p class="newsletter-sub">
+          Aggiornamenti sui nuovi romanzi, retroscena sulla scrittura, riflessioni sui sistemi che governano il mondo reale. Nessuno spam — solo storie e pensieri che vale la pena leggere.
+        </p>
+        <div class="newsletter-cta">
+          <a href="https://rosariodileva.substack.com" class="btn btn-primary" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+            Iscriviti su Substack
+          </a>
+          <p class="newsletter-note">Ospitato su <a href="https://substack.com" target="_blank" rel="noopener">Substack</a> · Gratis · Disdici quando vuoi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTATTI ──────────────────────────────────────────── -->
+  <section id="contatti" class="section">
+    <div class="container">
+      <div class="contatti-inner">
+
+        <div class="contatti-info fade-in">
+          <p class="section-label">Contatti</p>
+          <h2 class="section-title">Parliamo.</h2>
+          <p class="section-sub" style="margin-bottom:36px;">
+            Per interviste, eventi, collaborazioni editoriali o semplicemente per scrivere due righe — sono qui.
+          </p>
+
+          <a href="mailto:rosario@rosariodileva.com" class="contatti-email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <div class="email-label">Email</div>
+              <div class="email-addr">rosario@rosariodileva.com</div>
+            </div>
+          </a>
+
+          <p class="contatti-social-title">Seguimi</p>
+          <div class="contatti-social-links">
+            <a href="https://www.instagram.com/rosario_di_leva_1980/" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              @rosario_di_leva_1980
+            </a>
+            <a href="https://twitter.com/rosario_di_leva" class="social-link" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              @rosario_di_leva
+            </a>
+          </div>
+        </div>
+
+        <div class="fade-in" style="transition-delay:0.1s">
+          <!-- Messaggio di successo (mostrato da @formspree/ajax dopo l'invio) -->
+          <div data-fs-success style="display:none;text-align:center;padding:32px;background:rgba(0,194,204,0.07);border:1px solid var(--border);border-radius:var(--radius);color:var(--teal);font-weight:500;">
+            ✓ Messaggio inviato! Ti risponderò al più presto.
+          </div>
+          <!-- Errore globale -->
+          <div data-fs-error class="form-global-error"></div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Il tuo nome" required data-fs-field />
+                <span data-fs-error="nome" class="field-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="la@tuaemail.com" required data-fs-field />
+                <span data-fs-error="email" class="field-error"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="oggetto">Oggetto</label>
+              <input type="text" id="oggetto" name="oggetto" placeholder="Di cosa vorresti parlare?" data-fs-field />
+              <span data-fs-error="oggetto" class="field-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="messaggio">Messaggio</label>
+              <textarea id="messaggio" name="messaggio" placeholder="Scrivi qui il tuo messaggio…" required data-fs-field></textarea>
+              <span data-fs-error="messaggio" class="field-error"></span>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" data-fs-submit-btn>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Invia messaggio
+              </button>
+            </div>
+          </form>
+
+          <!-- Formspree AJAX SDK via CDN -->
+          <script>
+            window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+            formspree('initForm', { formElement: '#contactForm', formId: 'xbdbkavj' });
+          </script>
+          <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────── -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-logo">Rosario <span>Di Leva</span></div>
+          <nav class="footer-nav">
+            <a href="#libro">Il Libro</a>
+            <a href="#catalogo">Catalogo</a>
+            <a href="#autore">L'Autore</a>
+            <a href="#newsletter">Newsletter</a>
+            <a href="#contatti">Contatti</a>
+          </nav>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/rosario_di_leva_1980/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://twitter.com/rosario_di_leva" target="_blank" rel="noopener" aria-label="X Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="mailto:rosario@rosariodileva.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p class="footer-copy">
+            © 2024 Rosario Di Leva · Tutti i diritti riservati ·
+            <a href="mailto:rosario@rosariodileva.com">rosario@rosariodileva.com</a>
+          </p>
+          <p class="footer-copy" style="font-size:0.74rem;">
+            Sito realizzato con HTML/CSS puro · Hosting statico
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── JS ───────────────────────────────────────────────── -->
+  <script>
+    // ── Nav scroll shadow ──────────────────────────────────
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // ── Hamburger ──────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', open);
+    });
+    function closeMobile() {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('open');
+    }
+
+    // ── Fade-in on scroll ──────────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ── Hero canvas grid animation ─────────────────────────
+    (function () {
+      const canvas = document.getElementById('hero-canvas');
+      const ctx = canvas.getContext('2d');
+      let W, H, nodes = [], animId;
+
+      function resize() {
+        W = canvas.width  = canvas.offsetWidth;
+        H = canvas.height = canvas.offsetHeight;
+      }
+
+      function initNodes(n = 60) {
+        nodes = Array.from({ length: n }, () => ({
+          x:  Math.random() * W,
+          y:  Math.random() * H,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: (Math.random() - 0.5) * 0.35,
+        }));
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        // Update
+        nodes.forEach(n => {
+          n.x += n.vx; n.y += n.vy;
+          if (n.x < 0 || n.x > W) n.vx *= -1;
+          if (n.y < 0 || n.y > H) n.vy *= -1;
+        });
+        // Edges
+        const maxDist = 160;
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const dx = nodes[i].x - nodes[j].x;
+            const dy = nodes[i].y - nodes[j].y;
+            const d  = Math.sqrt(dx * dx + dy * dy);
+            if (d < maxDist) {
+              ctx.beginPath();
+              ctx.moveTo(nodes[i].x, nodes[i].y);
+              ctx.lineTo(nodes[j].x, nodes[j].y);
+              ctx.strokeStyle = `rgba(0,194,204,${0.18 * (1 - d / maxDist)})`;
+              ctx.lineWidth = 0.8;
+              ctx.stroke();
+            }
+          }
+        }
+        // Nodes
+        nodes.forEach(n => {
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, 1.8, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(0,194,204,0.55)';
+          ctx.fill();
+        });
+        animId = requestAnimationFrame(draw);
+      }
+
+      function start() {
+        resize();
+        initNodes();
+        draw();
+      }
+
+      window.addEventListener('resize', () => {
+        cancelAnimationFrame(animId);
+        resize();
+        initNodes();
+        draw();
+      }, { passive: true });
+
+      start();
+    })();
+
+    // Form gestito da @formspree/ajax SDK (script inline nella sezione contatti)
+  </script>
+</body>
+</html>
