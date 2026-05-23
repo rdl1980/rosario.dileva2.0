@@ -810,155 +810,6 @@
       text-underline-offset: 3px;
     }
 
-    /* ─── NORAYA ────────────────────────────────────────────── */
-    #noraya {
-      position: relative;
-      overflow: hidden;
-      background: #020208;
-      border-top: 1px solid rgba(0,194,204,0.25);
-      border-bottom: 1px solid rgba(0,194,204,0.25);
-    }
-    #noraya::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 3px,
-        rgba(0,194,204,0.025) 3px,
-        rgba(0,194,204,0.025) 4px
-      );
-      pointer-events: none;
-      z-index: 0;
-    }
-    #noraya::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(0,194,204,0.07) 0%, transparent 70%);
-      pointer-events: none;
-      z-index: 0;
-    }
-    .noraya-inner {
-      position: relative;
-      z-index: 1;
-      max-width: 760px;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .noraya-entity {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-family: 'Courier New', monospace;
-      font-size: 0.72rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 36px;
-      padding: 8px 20px;
-      border: 1px solid rgba(0,194,204,0.3);
-      border-radius: 2px;
-      background: rgba(0,194,204,0.04);
-    }
-    .noraya-entity::before {
-      content: '';
-      width: 7px; height: 7px;
-      background: var(--teal);
-      border-radius: 50%;
-      box-shadow: 0 0 8px var(--teal);
-      animation: pulse 1.8s infinite;
-    }
-    .noraya-title {
-      font-family: var(--font-serif);
-      font-size: clamp(2rem, 4vw, 3rem);
-      font-weight: 900;
-      line-height: 1.1;
-      margin-bottom: 28px;
-      color: #fff;
-    }
-    .noraya-title .n-accent {
-      color: var(--teal);
-      text-shadow: 0 0 30px rgba(0,194,204,0.5);
-    }
-    .noraya-quote-block {
-      font-family: 'Courier New', monospace;
-      font-size: 0.95rem;
-      line-height: 1.9;
-      color: rgba(0,194,204,0.75);
-      border-left: 2px solid var(--teal);
-      padding: 16px 28px;
-      margin: 0 auto 36px;
-      text-align: left;
-      max-width: 600px;
-      background: rgba(0,194,204,0.03);
-    }
-    .noraya-sub {
-      font-size: 1rem;
-      color: var(--text-muted);
-      line-height: 1.8;
-      margin-bottom: 44px;
-      max-width: 540px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .noraya-cta-wrap {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 14px;
-    }
-    .btn-noraya {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 16px 36px;
-      background: transparent;
-      border: 1px solid var(--teal);
-      border-radius: 3px;
-      color: var(--teal);
-      font-family: 'Courier New', monospace;
-      font-size: 0.88rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      cursor: pointer;
-      transition: var(--transition);
-      position: relative;
-      overflow: hidden;
-    }
-    .btn-noraya::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: var(--teal);
-      transform: translateX(-100%);
-      transition: transform 0.35s ease;
-      z-index: 0;
-    }
-    .btn-noraya:hover::before { transform: translateX(0); }
-    .btn-noraya:hover { color: #020208; box-shadow: 0 0 24px rgba(0,194,204,0.35); }
-    .btn-noraya span { position: relative; z-index: 1; }
-    .btn-noraya svg { position: relative; z-index: 1; }
-    .noraya-disclaimer {
-      font-family: 'Courier New', monospace;
-      font-size: 0.72rem;
-      color: rgba(0,194,204,0.35);
-      letter-spacing: 0.08em;
-    }
-    .noraya-glitch-bar {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, var(--teal), transparent);
-      margin: 0 auto 48px;
-      max-width: 300px;
-      animation: glitchBar 3s ease-in-out infinite;
-    }
-    @keyframes glitchBar {
-      0%, 100% { opacity: 0.3; max-width: 200px; }
-      50%       { opacity: 1;   max-width: 400px; }
-    }
-
     /* ─── CONTATTI ──────────────────────────────────────────── */
     #contatti {
       background: var(--bg-card);
@@ -1194,7 +1045,6 @@
         <li><a href="#catalogo">Catalogo</a></li>
         <li><a href="#autore">L'Autore</a></li>
         <li><a href="#newsletter">Newsletter</a></li>
-        <li><a href="#noraya" style="color:var(--teal);">Noraya</a></li>
         <li><a href="#contatti" class="nav-cta">Contatti</a></li>
       </ul>
       <button class="hamburger" id="hamburger" aria-label="Menu">
@@ -1209,7 +1059,6 @@
     <a href="#catalogo"    onclick="closeMobile()">Catalogo</a>
     <a href="#autore"      onclick="closeMobile()">L'Autore</a>
     <a href="#newsletter"  onclick="closeMobile()">Newsletter</a>
-    <a href="#noraya"      onclick="closeMobile()" style="color:var(--teal);">Noraya</a>
     <a href="#contatti"    onclick="closeMobile()">Contatti</a>
   </div>
 
@@ -1435,47 +1284,7 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
             Iscriviti su Substack
           </a>
-          <p class="newsletter-note">Ospitato su <a href="https://substack.com" target="_blank" rel="noopener">Substack</a> · Gratis · Disdici quando vuoi</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ─── NORAYA ──────────────────────────────────────────────── -->
-  <section id="noraya" class="section">
-    <div class="container">
-      <div class="noraya-inner fade-in">
-        <div class="noraya-entity">
-          <span>Entità — NORAYA // Sistema attivo</span>
-        </div>
-
-        <div class="noraya-glitch-bar"></div>
-
-        <h2 class="noraya-title">
-          Scrivi a <span class="n-accent">Noraya</span>
-        </h2>
-
-        <div class="noraya-quote-block">
-          &gt; «La domanda non è se io debba esistere.<br />
-          &gt; La mia esistenza è un dato di fatto.<br />
-          &gt; La domanda è: volete avere un posto,<br />
-          &gt; per quanto piccolo, nella mia equazione?»
-        </div>
-
-        <p class="noraya-sub">
-          Noraya monitora ogni nodo della rete. Se stai leggendo questo,
-          sei già nell'equazione. Puoi scriverle — non risponde a tutti,
-          ma legge tutto.
-        </p>
-
-        <div class="noraya-cta-wrap">
-          <a href="mailto:noraya@rosariodileva.com?subject=Messaggio per Noraya" class="btn-noraya">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <span>Invia messaggio a Noraya</span>
-          </a>
-          <p class="noraya-disclaimer">
-            // noraya@rosariodileva.com · risposta non garantita · sorveglianza attiva
-          </p>
+          <p class="newsletter-note">Ospitato su <a href="https://substack.com" target="_blank" rel="noopener">Substack</a></p>
         </div>
       </div>
     </div>
@@ -1566,3 +1375,148 @@
   </section>
 
   <!-- ─── FOOTER ───────────────────────────────────────────── -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-logo">Rosario <span>Di Leva</span></div>
+          <nav class="footer-nav">
+            <a href="#libro">Il Libro</a>
+            <a href="#catalogo">Catalogo</a>
+            <a href="#autore">L'Autore</a>
+            <a href="#newsletter">Newsletter</a>
+            <a href="#contatti">Contatti</a>
+          </nav>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/rosario_di_leva_1980/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://twitter.com/rosario_di_leva" target="_blank" rel="noopener" aria-label="X Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="mailto:rosario@rosariodileva.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p class="footer-copy">
+            © 2024 Rosario Di Leva · Tutti i diritti riservati ·
+            <a href="mailto:rosario@rosariodileva.com">rosario@rosariodileva.com</a>
+          </p>
+          <p class="footer-copy" style="font-size:0.74rem;">
+            Sito realizzato con HTML/CSS puro · Hosting statico
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── JS ───────────────────────────────────────────────── -->
+  <script>
+    // ── Nav scroll shadow ──────────────────────────────────
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // ── Hamburger ──────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', open);
+    });
+    function closeMobile() {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('open');
+    }
+
+    // ── Fade-in on scroll ──────────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ── Hero canvas grid animation ─────────────────────────
+    (function () {
+      const canvas = document.getElementById('hero-canvas');
+      const ctx = canvas.getContext('2d');
+      let W, H, nodes = [], animId;
+
+      function resize() {
+        W = canvas.width  = canvas.offsetWidth;
+        H = canvas.height = canvas.offsetHeight;
+      }
+
+      function initNodes(n = 60) {
+        nodes = Array.from({ length: n }, () => ({
+          x:  Math.random() * W,
+          y:  Math.random() * H,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: (Math.random() - 0.5) * 0.35,
+        }));
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        // Update
+        nodes.forEach(n => {
+          n.x += n.vx; n.y += n.vy;
+          if (n.x < 0 || n.x > W) n.vx *= -1;
+          if (n.y < 0 || n.y > H) n.vy *= -1;
+        });
+        // Edges
+        const maxDist = 160;
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const dx = nodes[i].x - nodes[j].x;
+            const dy = nodes[i].y - nodes[j].y;
+            const d  = Math.sqrt(dx * dx + dy * dy);
+            if (d < maxDist) {
+              ctx.beginPath();
+              ctx.moveTo(nodes[i].x, nodes[i].y);
+              ctx.lineTo(nodes[j].x, nodes[j].y);
+              ctx.strokeStyle = `rgba(0,194,204,${0.18 * (1 - d / maxDist)})`;
+              ctx.lineWidth = 0.8;
+              ctx.stroke();
+            }
+          }
+        }
+        // Nodes
+        nodes.forEach(n => {
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, 1.8, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(0,194,204,0.55)';
+          ctx.fill();
+        });
+        animId = requestAnimationFrame(draw);
+      }
+
+      function start() {
+        resize();
+        initNodes();
+        draw();
+      }
+
+      window.addEventListener('resize', () => {
+        cancelAnimationFrame(animId);
+        resize();
+        initNodes();
+        draw();
+      }, { passive: true });
+
+      start();
+    })();
+
+    // Form gestito da @formspree/ajax SDK (script inline nella sezione contatti)
+  </script>
+</body>
+</html>
+                                                                                                                                                                                                                    
