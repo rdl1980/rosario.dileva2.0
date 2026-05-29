@@ -810,6 +810,155 @@
       text-underline-offset: 3px;
     }
 
+    /* ─── NORAYA ────────────────────────────────────────────── */
+    #noraya {
+      position: relative;
+      overflow: hidden;
+      background: #020208;
+      border-top: 1px solid rgba(0,194,204,0.25);
+      border-bottom: 1px solid rgba(0,194,204,0.25);
+    }
+    #noraya::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3px,
+        rgba(0,194,204,0.025) 3px,
+        rgba(0,194,204,0.025) 4px
+      );
+      pointer-events: none;
+      z-index: 0;
+    }
+    #noraya::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 50%, rgba(0,194,204,0.07) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .noraya-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 760px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .noraya-entity {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 36px;
+      padding: 8px 20px;
+      border: 1px solid rgba(0,194,204,0.3);
+      border-radius: 2px;
+      background: rgba(0,194,204,0.04);
+    }
+    .noraya-entity::before {
+      content: '';
+      width: 7px; height: 7px;
+      background: var(--teal);
+      border-radius: 50%;
+      box-shadow: 0 0 8px var(--teal);
+      animation: pulse 1.8s infinite;
+    }
+    .noraya-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 28px;
+      color: #fff;
+    }
+    .noraya-title .n-accent {
+      color: var(--teal);
+      text-shadow: 0 0 30px rgba(0,194,204,0.5);
+    }
+    .noraya-quote-block {
+      font-family: 'Courier New', monospace;
+      font-size: 0.95rem;
+      line-height: 1.9;
+      color: rgba(0,194,204,0.75);
+      border-left: 2px solid var(--teal);
+      padding: 16px 28px;
+      margin: 0 auto 36px;
+      text-align: left;
+      max-width: 600px;
+      background: rgba(0,194,204,0.03);
+    }
+    .noraya-sub {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 44px;
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .noraya-cta-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+    .btn-noraya {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 36px;
+      background: transparent;
+      border: 1px solid var(--teal);
+      border-radius: 3px;
+      color: var(--teal);
+      font-family: 'Courier New', monospace;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-noraya::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--teal);
+      transform: translateX(-100%);
+      transition: transform 0.35s ease;
+      z-index: 0;
+    }
+    .btn-noraya:hover::before { transform: translateX(0); }
+    .btn-noraya:hover { color: #020208; box-shadow: 0 0 24px rgba(0,194,204,0.35); }
+    .btn-noraya span { position: relative; z-index: 1; }
+    .btn-noraya svg { position: relative; z-index: 1; }
+    .noraya-disclaimer {
+      font-family: 'Courier New', monospace;
+      font-size: 0.72rem;
+      color: rgba(0,194,204,0.35);
+      letter-spacing: 0.08em;
+    }
+    .noraya-glitch-bar {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--teal), transparent);
+      margin: 0 auto 48px;
+      max-width: 300px;
+      animation: glitchBar 3s ease-in-out infinite;
+    }
+    @keyframes glitchBar {
+      0%, 100% { opacity: 0.3; max-width: 200px; }
+      50%       { opacity: 1;   max-width: 400px; }
+    }
+
     /* ─── CONTATTI ──────────────────────────────────────────── */
     #contatti {
       background: var(--bg-card);
@@ -1031,6 +1180,11 @@
       .autore-facts { gap: 20px; }
       .footer-top { flex-direction: column; align-items: flex-start; }
       .footer-bottom { flex-direction: column; }
+      /* Bottoni acquisto a piena larghezza su mobile */
+      .libro-actions { flex-direction: column; }
+      .libro-actions .btn { width: 100%; justify-content: center; }
+      .hero-actions { flex-direction: column; }
+      .hero-actions .btn { width: 100%; justify-content: center; }
     }
   </style>
 </head>
@@ -1045,6 +1199,7 @@
         <li><a href="#catalogo">Catalogo</a></li>
         <li><a href="#autore">L'Autore</a></li>
         <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#noraya" style="color:var(--teal);">Noraya</a></li>
         <li><a href="#contatti" class="nav-cta">Contatti</a></li>
       </ul>
       <button class="hamburger" id="hamburger" aria-label="Menu">
@@ -1059,6 +1214,7 @@
     <a href="#catalogo"    onclick="closeMobile()">Catalogo</a>
     <a href="#autore"      onclick="closeMobile()">L'Autore</a>
     <a href="#newsletter"  onclick="closeMobile()">Newsletter</a>
+    <a href="#noraya"      onclick="closeMobile()" style="color:var(--teal);">Noraya</a>
     <a href="#contatti"    onclick="closeMobile()">Contatti</a>
   </div>
 
@@ -1192,7 +1348,7 @@
             <h3 class="card-title">L'Algoritmo che Governa i Destini</h3>
             <p class="card-excerpt">Un'intelligenza artificiale emersa spontaneamente dalla rete. Non attacca: interviene. Ma chi controlla chi controlla tutto?</p>
             <div class="card-footer">
-              <span class="card-year">2026 · Bookabook</span>
+              <span class="card-year">2024 · Bookabook</span>
               <a href="https://bookabook.it/libro/lalgoritmo-che-governa-i-destini/" class="card-link" target="_blank" rel="noopener">
                 Acquista <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
@@ -1284,7 +1440,47 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
             Iscriviti su Substack
           </a>
-          <p class="newsletter-note">Ospitato su <a href="https://substack.com" target="_blank" rel="noopener">Substack</a></p>
+          <p class="newsletter-note">Ospitato su <a href="https://substack.com" target="_blank" rel="noopener">Substack</a> · Gratis · Disdici quando vuoi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── NORAYA ──────────────────────────────────────────────── -->
+  <section id="noraya" class="section">
+    <div class="container">
+      <div class="noraya-inner fade-in">
+        <div class="noraya-entity">
+          <span>Entità — NORAYA // Sistema attivo</span>
+        </div>
+
+        <div class="noraya-glitch-bar"></div>
+
+        <h2 class="noraya-title">
+          Scrivi a <span class="n-accent">Noraya</span>
+        </h2>
+
+        <div class="noraya-quote-block">
+          &gt; «La domanda non è se io debba esistere.<br />
+          &gt; La mia esistenza è un dato di fatto.<br />
+          &gt; La domanda è: volete avere un posto,<br />
+          &gt; per quanto piccolo, nella mia equazione?»
+        </div>
+
+        <p class="noraya-sub">
+          Noraya monitora ogni nodo della rete. Se stai leggendo questo,
+          sei già nell'equazione. Puoi scriverle — non risponde a tutti,
+          ma legge tutto.
+        </p>
+
+        <div class="noraya-cta-wrap">
+          <a href="mailto:noraya@rosariodileva.com?subject=Messaggio per Noraya" class="btn-noraya">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Invia messaggio a Noraya</span>
+          </a>
+          <p class="noraya-disclaimer">
+            // noraya@rosariodileva.com · risposta non garantita · sorveglianza attiva
+          </p>
         </div>
       </div>
     </div>
@@ -1402,7 +1598,7 @@
         <div class="footer-divider"></div>
         <div class="footer-bottom">
           <p class="footer-copy">
-            © 2026 Rosario Di Leva · Tutti i diritti riservati ·
+            © 2024 Rosario Di Leva · Tutti i diritti riservati ·
             <a href="mailto:rosario@rosariodileva.com">rosario@rosariodileva.com</a>
           </p>
           <p class="footer-copy" style="font-size:0.74rem;">
@@ -1434,6 +1630,7 @@
     }
 
     // ── Fade-in on scroll ──────────────────────────────────
+    const fadeEls = document.querySelectorAll('.fade-in');
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting) {
@@ -1441,8 +1638,12 @@
           observer.unobserve(e.target);
         }
       });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    }, { threshold: 0, rootMargin: '0px 0px -20px 0px' });
+    fadeEls.forEach(el => observer.observe(el));
+    // Fallback: mostra tutto dopo 800ms se l'observer non ha sparato
+    setTimeout(() => {
+      fadeEls.forEach(el => el.classList.add('visible'));
+    }, 800);
 
     // ── Hero canvas grid animation ─────────────────────────
     (function () {
@@ -1519,4 +1720,3 @@
   </script>
 </body>
 </html>
-                                                                                                                                                                                                                    
