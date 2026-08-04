@@ -1,19 +1,10 @@
 /* =========================================================
    Officina della Narrazione — modulo di iscrizione al kit
+   Invia a Brevo (lista "Officina della Narrazione") con
+   doppio opt-in. Il kit arriva nell'email di conferma finale.
    ========================================================= */
 
-/* ---------------------------------------------------------
-   CONFIGURAZIONE — l'unica cosa da modificare.
-
-   Incollare qui l'URL del modulo MailerLite:
-   MailerLite → Forms → Embedded forms → crea il modulo →
-   scheda "HTML" → copiare l'indirizzo dentro action="..."
-   (ha questa forma: https://assets.mailerlite.com/jsonp/XXXXX/forms/YYYYY/subscribe)
-
-   Finché resta vuoto, il modulo avvisa che le iscrizioni
-   non sono ancora attive invece di fingere di funzionare.
-   --------------------------------------------------------- */
-var MAILERLITE_ENDPOINT = '';
+var BREVO_ENDPOINT = 'https://7fe28f70.sibforms.com/serve/MUIFAGfZtB3mou91Nr2ScbYZgUSLaL28uSMfTFXD-3i5jBPF7om3cSMWeFMpUdD4SNee7f1S-1l_lpb82L8Lhhy6LZYg_TsBP9fMnNIdOPbMTZnhFzv0Z0fI5WgFeIn77KmZOnjMEv9OsAVh6GXiPLG87gx0Jqd8NwewTmmzJnAZYXsjTqJ3FYaHUwm4RoIXaU5CY2ozRVg3MGsj_w==';
 
 (function () {
   'use strict';
@@ -53,26 +44,22 @@ var MAILERLITE_ENDPOINT = '';
       return;
     }
 
-    if (!MAILERLITE_ENDPOINT) {
-      show('Le iscrizioni aprono a breve. Torna tra qualche giorno: il kit sarà pronto al download.');
-      return;
-    }
-
     submit.disabled = true;
     var originale = submit.textContent;
     submit.textContent = 'Invio in corso…';
 
     var dati = new FormData();
-    dati.append('fields[email]', email.value.trim());
+    dati.append('EMAIL', email.value.trim());
+    dati.append('email_address_check', '');   // honeypot antispam di Brevo
+    dati.append('locale', 'it');
+    dati.append('html_type', 'simple');
     var da = origine();
-    if (da) dati.append('fields[origine]', da);
-    dati.append('ml-submit', '1');
-    dati.append('anticsrf', 'true');
+    if (da) dati.append('ORIGINE', da);
 
-    fetch(MAILERLITE_ENDPOINT, { method: 'POST', body: dati, mode: 'no-cors' })
+    fetch(BREVO_ENDPOINT, { method: 'POST', body: dati, mode: 'no-cors' })
       .then(function () {
         form.style.display = 'none';
-        show('Ci siamo quasi: ti ho mandato una email di conferma. Aprila e clicca il link, poi ricevi subito il kit. Se non la vedi, controlla nello spam.');
+        show('Ci siamo quasi: ti ho mandato una email di conferma. Aprila e clicca il link, e ricevi subito il kit. Se non la vedi, controlla nello spam.');
       })
       .catch(function () {
         submit.disabled = false;
