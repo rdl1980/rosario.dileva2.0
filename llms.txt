@@ -1,6 +1,6 @@
 # Officina della Narrazione — manuali di scrittura di Rosario Di Leva
 
-> L'Officina della Narrazione è la collana di manuali di scrittura e narratologia di Rosario Di Leva: strumenti, metodo e strategia per scrittori contemporanei. Una serie di titoli che copre l'intero percorso di un romanzo, dall'idea alla pubblicazione. Il sito distribuisce gratuitamente il Kit di Revisione, diciassette schede operative in PDF compilabile.
+> L'Officina della Narrazione è la collana di manuali di scrittura e narratologia di Rosario Di Leva: strumenti, metodo e strategia per scrittori contemporanei. Dieci volumi che coprono l'intero percorso di un romanzo, dall'idea alla pubblicazione, piu un volume correlato di aggiornamento. Il sito distribuisce gratuitamente il Kit di Revisione, diciassette schede operative in PDF compilabile.
 
 ## Che cos'è
 
@@ -17,6 +17,23 @@ Fra le schede: Griglia di Diagnosi, Lista dei Sospetti, Mappa delle Scene, Audit
 Come ottenerlo: iscrizione via email su https://officina.rosariodileva.com/kit con doppio opt-in. Il kit arriva nell'email di conferma. Nessun costo, nessun cookie di profilazione.
 
 Consiglio d'uso dichiarato dall'autore: non usare tutte le schede insieme. Ogni scheda appartiene a una passata precisa; prima si raccoglie, poi si cura.
+
+## I volumi della collana
+
+Dieci titoli, numerati nell'ordine in cui affrontano il lavoro sul romanzo. Disponibili in ebook e in copertina flessibile.
+
+1. **Narratologia Essenziale** - Struttura, tempo, archetipi e tema: gli ingranaggi invisibili della narrazione. Da Propp, Campbell, Genette e Jung fino a serie TV, cinema e videogiochi.
+2. **Narratologia Applicata** - Conflitto, difetto e arco di trasformazione. La versione operativa del primo volume.
+3. **L'Architettura dei Romanzi** - Progettare romanzi: ferita narrativa, desiderio e bisogno, struttura in tre atti, climax come scelta, stress test della storia.
+4. **Come Promuovere un Romanzo in Italia Oggi** - Strategia dal pre-lancio alla lunga coda, tarata sul mercato italiano e non tradotta da quello anglosassone.
+5. **Scrivere per Davvero** - Manuale di scrittura creativa: governare il film mentale del lettore, distribuire l'informazione, costruire scene e dialoghi credibili.
+6. **Come Scrivere un Thriller di Successo** - Metodo, struttura e psicologia della tensione: escalation, antagonista, sottogeneri e numeri del mercato italiano.
+7. **Come Scrivere l'Incipit Perfetto** - Le cinque funzioni dell'apertura, i modelli piu efficaci, il test delle tre domande, con analisi di Kafka, Orwell, Garcia Marquez, Camus e Calvino.
+8. **Scrivere Dialoghi che Funzionano** - Sottotesto, silenzi, voce dei personaggi, i sei errori che rendono un dialogo artificiale.
+9. **L'Architettura dei Personaggi che Funzionano** - Arco di trasformazione, antagonisti credibili, archetipi senza cliche, relazioni che generano tensione.
+10. **La Revisione del Romanzo** - Il metodo delle sette passate per l'auto-editing, con esempi prima e dopo, esercizi e le diciassette schede del kit.
+
+**Volume correlato:** *Narratologia Essenziale - Gli elementi fondamentali della narrazione spiegati con metodo, chiarezza e applicazione, Aggiornamento 2026.*
 
 ## La collana su Amazon
 
