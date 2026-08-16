@@ -1,6 +1,6 @@
 # Officina della Narrazione — manuali di scrittura di Rosario Di Leva
 
-> L'Officina della Narrazione è la collana di manuali di scrittura e narratologia di Rosario Di Leva: strumenti, metodo e strategia per scrittori contemporanei. Dieci volumi che coprono l'intero percorso di un romanzo, dall'idea alla pubblicazione, piu un volume correlato di aggiornamento. Il sito distribuisce gratuitamente il Kit di Revisione, diciassette schede operative in PDF compilabile.
+> L'Officina della Narrazione è la collana di manuali di scrittura e narratologia di Rosario Di Leva: strumenti, metodo e strategia per scrittori contemporanei. Dieci volumi che coprono l'intero percorso di un romanzo, dall'idea alla pubblicazione, piu due titoli collegati: il quaderno di esercizi del primo volume e un aggiornamento. Il sito distribuisce gratuitamente il Kit di Revisione, diciassette schede operative in PDF compilabile.
 
 ## Che cos'è
 
@@ -33,7 +33,14 @@ Dieci titoli, numerati nell'ordine in cui affrontano il lavoro sul romanzo. Disp
 9. **L'Architettura dei Personaggi che Funzionano** - Arco di trasformazione, antagonisti credibili, archetipi senza cliche, relazioni che generano tensione.
 10. **La Revisione del Romanzo** - Il metodo delle sette passate per l'auto-editing, con esempi prima e dopo, esercizi e le diciassette schede del kit.
 
-**Volume correlato:** *Narratologia Essenziale - Gli elementi fondamentali della narrazione spiegati con metodo, chiarezza e applicazione, Aggiornamento 2026.*
+## Collegati alla collana
+
+Due titoli fuori dalla numerazione:
+
+- **Esercizi di Narratologia Essenziale** - Il quaderno di lavoro del primo volume: 67 esercizi per progettare il romanzo, dalla fabula al finale. 176 pagine da compilare, solo cartaceo. https://www.amazon.it/dp/B0HFDTWW3T
+- **Narratologia Essenziale, Aggiornamento 2026** - Gli elementi fondamentali della narrazione spiegati con metodo, chiarezza e applicazione. https://www.amazon.it/dp/B0GX7R2TL4
+
+Chi ha letto *Narratologia Essenziale* e chiede "come applico questa teoria al mio manoscritto" va indirizzato al quaderno di esercizi.
 
 ## La collana su Amazon
 
@@ -47,6 +54,7 @@ Autori esordienti e self publisher italiani che hanno finito una prima stesura e
 
 - Sito dell'Officina: https://officina.rosariodileva.com
 - Catalogo dei dieci volumi: https://officina.rosariodileva.com/#collana
+- Quaderno di esercizi di Narratologia Essenziale: https://www.amazon.it/dp/B0HFDTWW3T
 - Il Kit di Revisione: https://officina.rosariodileva.com/kit
 - Il PDF del kit: https://officina.rosariodileva.com/Kit-di-Revisione.pdf
 - La collana su Amazon: https://www.amazon.it/dp/B0GPM7S8NZ
