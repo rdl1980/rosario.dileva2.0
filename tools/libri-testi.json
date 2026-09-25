@@ -1,0 +1,1482 @@
+{
+  "01": {
+    "titolo": "Narratologia Essenziale (Vol. 1)",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "A chi è rivolto questo manuale"
+        ]
+      },
+      {
+        "parte": "Le Fondamenta: Cos'è una Storia e Come Funziona",
+        "capitoli": [
+          "Benvenuti nel Mondo della Narratologia",
+          "La Struttura Base: Fabula e Intreccio"
+        ]
+      },
+      {
+        "parte": "Tempo, Ritmo e Sequenze",
+        "capitoli": [
+          "Il Tempo della Narrazione",
+          "Alterare l'Ordine: I Salti Temporali (Anacronie)",
+          "Gestire il Ritmo: Durata e Velocità",
+          "Le Dimensioni Nascoste del Tempo: Frequenza e Modo"
+        ]
+      },
+      {
+        "parte": "La Voce Narrante: Chi Racconta?",
+        "capitoli": [
+          "Il Narratore e i Suoi Tipi",
+          "Il Punto di Vista (La Focalizzazione)"
+        ]
+      },
+      {
+        "parte": "Gli Attori della Storia: I Personaggi",
+        "capitoli": [
+          "Ruoli e Funzioni del Personaggio",
+          "Il Modello Attanziale (I Ruoli di Greimas)"
+        ]
+      },
+      {
+        "parte": "Spazio e Dialoghi",
+        "capitoli": [
+          "Lo Spazio e l'Ambientazione",
+          "Le Tecniche del Discorso"
+        ]
+      },
+      {
+        "parte": "La Costruzione del Conflitto e del Tema",
+        "capitoli": [
+          "Il Cuore della Storia — Il Conflitto",
+          "Il Tema — L’Anima della Narrazione",
+          "Dalla Struttura al Senso — Quando la Fabula diventa Idea"
+        ]
+      },
+      {
+        "parte": "Archetipi e Strutture Universali",
+        "capitoli": [
+          "Le Radici della Narrazione — Perché le Storie si Ripetono",
+          "Vladimir Propp e la Morfologia della Fiaba",
+          "Joseph Campbell e il Viaggio dell’Eroe",
+          "Jung e l’Archetipo dell’Inconscio Collettivo",
+          "Dalla Mitologia alla Narrazione Contemporanea",
+          "Applicare gli Archetipi alla Scrittura e all’Analisi"
+        ]
+      },
+      {
+        "parte": "La Narratologia Contemporanea e Digitale",
+        "capitoli": [
+          "La Narrazione nell’Era dei Media",
+          "Lo Storytelling Transmediale",
+          "La Narrazione Algoritmica e l’Intelligenza Artificiale"
+        ]
+      },
+      {
+        "parte": "Analisi Pratica di un Caso Studio Completo",
+        "capitoli": [
+          "Perché “Il Piccolo Principe”?",
+          "Lettura Attiva – Guida per l’Analisi Personale"
+        ]
+      },
+      {
+        "parte": "Come si Costruisce una Storia da Zero",
+        "capitoli": [
+          "Dall’idea alla struttura: guida pratica per creare una narrazione coerente"
+        ]
+      },
+      {
+        "parte": "L’Arte dello Stile: La Voce Profonda della Narrazione",
+        "capitoli": [
+          "Come le scelte linguistiche trasformano la storia in esperienza"
+        ]
+      },
+      {
+        "parte": "Stilistica Avanzata",
+        "capitoli": [
+          "Retorica, ritmica, simboli e strutture profonde della prosa narrativa"
+        ]
+      },
+      {
+        "parte": "Narratologia dei Generi",
+        "capitoli": [
+          "Come il genere narrativo modella struttura, stile, ritmo, conflitto e punto di vista"
+        ]
+      },
+      {
+        "parte": "Gli Errori Comuni degli Aspiranti Autori",
+        "capitoli": [
+          "Perché le storie non funzionano e come correggerle con consapevolezza narratologica",
+          "Esercizi Finali: diagnosticare i propri errori"
+        ]
+      },
+      {
+        "parte": "Glossario, Analisi Pratica e libri suggeriti",
+        "capitoli": [
+          "La Cassetta degli Attrezzi del Narratologo",
+          "Bibliografia Ragionata per Approfondire"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Conclusione: la formazione continua dell’autore e del lettore"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Il Punto di Vista",
+      "paragrafi": [
+        "Abbiamo parlato di chi racconta (il narratore) e da quale punto di vista (la focalizzazione). Ma c'è un altro aspetto fondamentale che rende ogni narrazione unica: la sua Voce e il suo Stile. Se il narratore è \"chi parla\" e la focalizzazione è \"chi vede\", la Voce è il \"chi è\" del narratore, la sua personalità udibile attraverso le parole, e lo Stile è il \"come\" si esprime.",
+        "La Voce: Si riferisce alla personalità distintiva del narratore, al suo tono, atteggiamento e prospettiva unici che emergono dalle parole. Può essere sarcastica, solenne, intima, distaccata, giocosa, tragica. La voce contribuisce a creare un legame emotivo con il lettore o a stabilire una certa distanza. Non è solo ciò che viene detto, ma il modo in cui il narratore <em>suona</em>.",
+        "Lo Stile: Riguarda le scelte linguistiche e retoriche specifiche che il narratore adotta. Questo include il vocabolario (semplice o complesso), la sintassi (frasi brevi o lunghe, complesse o semplici), l'uso di figure retoriche (metafore, similitudini), e il registro linguistico (formale, colloquiale, gergale). Lo stile è la \"veste\" con cui la voce si manifesta.",
+        "Mentre il narratore e la focalizzazione sono scelte strutturali, la voce e lo stile sono scelte espressive. Contribuiscono in maniera potente a caratterizzare il narratore stesso (se è un personaggio) o a infondere un'atmosfera specifica nella narrazione, rendendo ogni storia un'esperienza di lettura distintiva."
+      ]
+    },
+    "sottotitolo_breve": "Come sono fatte le storie: fabula, tempo, narratore, personaggi, conflitto e tema",
+    "intro": [
+      "Ogni storia che ti ha preso, che fosse un romanzo, un film o un aneddoto raccontato bene davanti a un caffè, poggia su un meccanismo che di solito resta nascosto. Questo manuale lo smonta pezzo per pezzo: la differenza tra fabula e intreccio, il modo in cui il racconto accelera e rallenta il tempo, chi parla e chi guarda, i ruoli che i personaggi occupano dentro la trama.",
+      "Il percorso parte dagli strumenti della narratologia classica, da Genette a Propp, da Greimas a Campbell, e arriva al lavoro concreto sulla pagina: costruire una storia da zero, riconoscere uno stile, capire come i generi cambiano le regole, individuare gli errori che fanno cedere un testo. Ogni concetto è accompagnato da esempi presi da libri e film che conosci e da esercizi per metterlo subito alla prova."
+    ],
+    "impari": [
+      "La differenza tra fabula e intreccio, e come l’ordine degli eventi cambia l’effetto di una storia",
+      "Come governare il ritmo con scena, sommario, ellissi e pausa, e perché conta la frequenza",
+      "I tipi di narratore e di focalizzazione, e come voce e stile rendono unica una narrazione",
+      "I ruoli dei personaggi e il modello attanziale di Greimas applicato alla trama",
+      "Le quattro dimensioni del conflitto e il modo in cui il tema emerge dalla struttura",
+      "Archetipi e strutture universali secondo Propp, Campbell e Jung, con l’analisi completa del Piccolo Principe",
+      "Gli errori più comuni di chi scrive, con esercizi finali per riconoscerli nel tuo testo"
+    ],
+    "per_chi": [
+      "Chi scrive o vuole scrivere narrativa e cerca una base solida prima delle tecniche avanzate",
+      "Lettori appassionati che vogliono capire perché una storia funziona, o perché non funziona",
+      "Aspiranti sceneggiatori e registi che vogliono leggere la struttura sotto la trama",
+      "Curiosi che vogliono scoprire gli ingranaggi nascosti dietro libri, film e serie"
+    ],
+    "meta_description": "Manuale di narratologia pratico: fabula e intreccio, tempo e ritmo, narratore, personaggi, conflitto, tema e archetipi, con esempi ed esercizi.",
+    "keyword": "manuale di narratologia",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Narratologia Essenziale\\9ed6ff98-ffd3-4e7a-8f01-5b5f10f80e45.png",
+    "riga": "Struttura, tempo, archetipi e tema: gli ingranaggi invisibili della narrazione, da Propp e Campbell fino alle serie TV.",
+    "legati": [
+      "wb",
+      "agg"
+    ]
+  },
+  "02": {
+    "titolo": "Narratologia Applicata. Conflitto, difetto e arco di trasformazione (Vol. 2)",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Introduzione",
+          "La storia non è una sequenza, è una pressione",
+          "Desiderio, bisogno, paura: il triangolo che muove tutto",
+          "Premessa, tema e posta in gioco",
+          "Il conflitto non è un ostacolo, è una frizione di valori",
+          "La posta in gioco reale",
+          "Il personaggio prima della storia",
+          "Carisma narrativo",
+          "Il difetto fatale",
+          "L’arco di trasformazione",
+          "Il punto di non ritorno",
+          "La caduta",
+          "La decisione",
+          "Il finale",
+          "Scrivere non è costruire storie"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Desiderio, bisogno, paura: il triangolo che muove tutto",
+      "paragrafi": [
+        "Situazione iniziale",
+        "Marco è un giovane avvocato brillante. Vuole vincere una causa importante per dimostrare il proprio valore e ottenere finalmente il riconoscimento dello studio per cui lavora.",
+        "Lettura narratologica",
+        "Il desiderio di Marco è chiaro, esterno, misurabile: vincere la causa. Questo desiderio orienta le sue azioni, organizza gli ostacoli, dà alla storia una direzione leggibile.",
+        "Ma narratologicamente il desiderio non coincide ancora con il cuore del conflitto. Marco non desidera giustizia, né verità, né autonomia: desidera conferma. Il processo diventa il luogo in cui tenta di dimostrare di valere, senza mettere in discussione la propria dipendenza dal giudizio altrui.",
+        "Il desiderio lo spinge in avanti, ma lo mantiene identico.",
+        "Errore tipico",
+        "Se la storia si limitasse a far vincere la causa a Marco, il racconto si chiuderebbe correttamente sul piano degli eventi, ma resterebbe vuoto sul piano trasformativo. Il protagonista avrebbe ottenuto ciò che voleva senza cambiare il modo in cui definisce sé stesso.",
+        "Chiusura",
+        "Il desiderio muove la storia. Ma è solo quando non basta più che la storia comincia davvero."
+      ]
+    },
+    "sottotitolo_breve": "Desiderio, conflitto, difetto fatale e arco: le forze che tengono viva una storia",
+    "intro": [
+      "Conoscere fabula, atti e archetipi non basta a far funzionare una storia, e lo sai se ti è capitato di leggerne una che rispetta tutte le regole senza lasciare niente. Questo secondo volume lavora sotto la struttura, là dove agiscono le forze che la tengono in tensione: il desiderio che spinge, la paura che trattiene, il bisogno che il protagonista non vede e il prezzo che dovrà pagare per cambiare.",
+      "Capitolo dopo capitolo segui una storia dall’interno, dalla pressione iniziale fino alla caduta, alla decisione e al finale. Il difetto fatale non è trattato come una debolezza da correggere ma come una strategia che ha funzionato troppo a lungo, ed è per questo che il personaggio la difende. Quasi ogni capitolo si chiude con un esempio applicativo su un personaggio concreto, compreso l’errore tipico da evitare."
+    ],
+    "impari": [
+      "Perché una storia è un sistema sotto pressione e non una semplice sequenza di eventi",
+      "Il triangolo desiderio, bisogno e paura, e come da lì nasce il secondo atto",
+      "La differenza tra premessa, tema e posta in gioco, e come si tengono insieme",
+      "Il conflitto come frizione tra valori legittimi, con l’antagonista inteso come funzione e non come ruolo",
+      "Il difetto fatale come strategia di sopravvivenza che ha smesso di funzionare",
+      "Punto di non ritorno, caduta, decisione e finale come tappe dell’arco di trasformazione",
+      "Che cos’è il carisma narrativo e perché continuiamo a seguire certi personaggi"
+    ],
+    "per_chi": [
+      "Chi conosce già le basi della narratologia e sente che manca ancora qualcosa",
+      "Chi ha una storia corretta sulla carta che però non coinvolge chi la legge",
+      "Chi riscrive o analizza storie e vuole strumenti per capire dove la tensione si perde",
+      "Chi ha letto Narratologia Essenziale e cerca il passo successivo"
+    ],
+    "meta_description": "Narratologia applicata: conflitto, difetto fatale e arco di trasformazione del personaggio, per capire perché una storia vive o muore.",
+    "keyword": "arco di trasformazione del personaggio",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Nuove copertine\\nuova copertina narratologia applicata ottimizzata.png",
+    "riga": "Conflitto, difetto, desiderio, posta in gioco e arco di trasformazione. Il primo volume messo al lavoro."
+  },
+  "03": {
+    "titolo": "L'Architettura dei Romanzi (Vol. 3)",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Introduzione"
+        ]
+      },
+      {
+        "parte": "Le fondamenta invisibili",
+        "capitoli": [
+          "Perché le storie esistono",
+          "Struttura non è formula",
+          "Il Viaggio come metafora universale",
+          "La vera struttura è interna"
+        ]
+      },
+      {
+        "parte": "L’arco interiore",
+        "capitoli": [
+          "Il Difetto Fatale",
+          "Tema incarnato",
+          "Conflitto e sofferenza",
+          "Midpoint e crisi",
+          "Climax come scelta morale"
+        ]
+      },
+      {
+        "parte": "Raccontare dal personaggio",
+        "capitoli": [
+          "Il filtro del personaggio",
+          "Mostrare non è un dogma",
+          "Ritmo, scene, sequenze e tensione",
+          "Dialogo come conflitto",
+          "Consapevolezza stilistica"
+        ]
+      },
+      {
+        "parte": "Il montaggio strutturale",
+        "capitoli": [
+          "Dal difetto alla trama",
+          "Bilanciare i tre atti",
+          "Diagnosi editoriale",
+          "Stress Test della Trasformazione"
+        ]
+      },
+      {
+        "parte": "Oltre la struttura",
+        "capitoli": [
+          "Storie senza trasformazione?",
+          "Verso un metodo personale",
+          "Perché il 90% dei manoscritti rifiutati fallisce qui",
+          "Casi di studio: Star Wars: A New Hope e Breaking Bad"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Conclusione",
+          "Appendice – Protocollo di autovalutazione"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Il Difetto Fatale",
+      "paragrafi": [
+        "Spesso gli autori partono da un’idea di evento: un’indagine, una guerra, un triangolo amoroso. Poi cercano di “aggiungere profondità” inserendo un conflitto interno.",
+        "Ma quando il difetto è generativo, la trama emerge naturalmente.",
+        "Se il protagonista crede che il valore personale dipenda dall’approvazione altrui, la storia dovrebbe collocarlo in un contesto in cui l’approvazione è instabile o manipolatoria. Se il protagonista teme l’intimità, la trama dovrebbe offrirgli una relazione che lo obbliga a esporsi. Se il protagonista confonde potere e sicurezza, la storia dovrebbe offrirgli potere a un costo morale crescente.",
+        "Il difetto crea vulnerabilità.",
+        "La vulnerabilità crea esposizione.",
+        "L’esposizione crea conflitto.",
+        "Il conflitto crea struttura.",
+        "Quando la trama nasce dal difetto, ogni evento appare necessario. Non è arbitrario. Non è “messo lì per fare avanzare la storia”. È la conseguenza inevitabile dell’interazione tra sistema interno e mondo esterno.",
+        "Questo è il punto in cui struttura invisibile e plot visibile si allineano."
+      ]
+    },
+    "sottotitolo_breve": "Progettare un romanzo partendo dalla trasformazione del protagonista, non dalla trama",
+    "intro": [
+      "Quasi tutti i manuali insegnano a mettere in fila gli eventi, mentre questo libro parte da un’altra domanda: che cosa deve cambiare dentro il protagonista perché quegli eventi abbiano un senso. L’architettura di un romanzo, qui, è una struttura invisibile fatta di ferita, difetto, tema e scelta, e la trama diventa la sua conseguenza. Sono ventidue capitoli in cinque parti, dalle fondamenta fino a ciò che sta oltre la struttura.",
+      "Il percorso attraversa il difetto fatale, il tema incarnato, il midpoint e la crisi, il climax come scelta morale, e poi scende sulla pagina: il filtro del personaggio, il rapporto tra mostrare e dire, il ritmo delle scene, il dialogo come scontro. Chiudono il libro gli strumenti di revisione, dalla diagnosi editoriale allo stress test, due casi di studio completi e quindici domande per verificare se la tua storia regge."
+    ],
+    "impari": [
+      "Perché la vera struttura di una storia è interna e come distinguerla dalla trama visibile",
+      "Come il difetto fatale genera la trama e si lega al tema",
+      "Midpoint, crisi e climax letti come tappe della trasformazione, non come semplici snodi d’azione",
+      "Quando mostrare e quando dire, senza cadere nell’iper-descrizione o nell’infodump",
+      "Il dialogo come collisione di intenzioni e il ritmo come distribuzione della tensione",
+      "Come bilanciare i tre atti e sottoporre il manoscritto a diagnosi editoriale e stress test",
+      "Dove cedono molti manoscritti rifiutati, con l’analisi di Star Wars e Breaking Bad"
+    ],
+    "per_chi": [
+      "Chi sta progettando un romanzo e vuole una struttura che non sia una formula",
+      "Chi ha un manoscritto finito e deve capire perché non regge",
+      "Chi conosce già i tre atti e il viaggio dell’eroe e cerca un livello più profondo",
+      "Chi rivede testi, propri o altrui, e vuole criteri chiari per una diagnosi strutturale"
+    ],
+    "meta_description": "Come strutturare un romanzo partendo dalla trasformazione del protagonista: difetto fatale, tema, midpoint, crisi, climax, tre atti e revisione.",
+    "keyword": "come strutturare un romanzo",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Ultimo progetto narratologico\\copertina 2.png",
+    "riga": "Ferita narrativa, tre atti senza rigidità, climax come scelta. Con uno stress test da applicare alla storia prima di proporla."
+  },
+  "04": {
+    "titolo": "Come Promuovere un Romanzo in Italia Oggi (Vol. 4)",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Manifesto",
+          "Introduzione – Perché il romanzo invisibile è la norma",
+          "Il mito dell’editore promotore",
+          "Perché la qualità non basta",
+          "L’economia dell’attenzione in Italia",
+          "I numeri veri del mercato editoriale italiano",
+          "Posizionare il romanzo",
+          "Posizionare l’autore",
+          "Il lettore ideale non è “tutti”",
+          "Community prima del lancio",
+          "Il pre-lancio: i 90 giorni che determinano tutto",
+          "Il crowdfunding come leva narrativa (non solo finanziaria)",
+          "ARC, beta reader e ambassador: costruire il primo nucleo attivo",
+          "Amazon: categorie, keyword e recensioni come leva strategica",
+          "La lunga coda: cosa succede quando il rumore finisce",
+          "Eventi intelligenti (non presentazioni vuote)",
+          "Newsletter e relazione continua: costruire un canale che controlli tu",
+          "Collaborazioni strategiche e reti professionali: uscire dall’isolamento autoriale",
+          "AI come assistente, non sostituto",
+          "Automazioni leggere per autori: costruire un sistema sostenibile",
+          "Scrivere mentre promuovi: evitare la trappola dell’interruzione",
+          "Non delegare il destino del tuo romanzo",
+          "Conclusione – Scrivere è un atto creativo. Pubblicare è un atto strategico",
+          "Appendice – Strumenti Operativi Essenziali"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Il lettore ideale non è “tutti”",
+      "paragrafi": [
+        "Il lettore ideale non è un dato anagrafico. Non è soltanto “donna 30-45 anni” o “lettore di thriller”. È una configurazione più complessa. È qualcuno che si riconosce in una tensione.",
+        "Ogni romanzo contiene una frattura centrale: un conflitto tra desiderio e realtà, tra passato e futuro, tra ambizione e paura, tra libertà e appartenenza. Il lettore ideale è chi vive o riconosce quella frattura.",
+        "Se il tuo romanzo esplora il senso di inadeguatezza professionale in età adulta, il lettore ideale potrebbe essere chi sta attraversando una fase di ridefinizione lavorativa. Se racconta una rottura affettiva tardiva, potrebbe intercettare chi sta vivendo un cambiamento relazionale. Se è un thriller ambientato in un contesto politico, potrebbe attrarre chi segue con attenzione le dinamiche di potere.",
+        "Il lettore ideale non è una categoria generica. È una persona che si sente chiamata.",
+        "Quando non definisci il lettore ideale, accade una cosa precisa: la tua comunicazione resta neutra. E la neutralità, nell’economia dell’attenzione, è invisibilità.",
+        "Il lettore non sceglie un libro perché è “interessante”. Lo sceglie perché percepisce una risonanza."
+      ]
+    },
+    "sottotitolo_breve": "Strategia concreta dal pre-lancio alla lunga coda, per autori indipendenti e pubblicati",
+    "intro": [
+      "In Italia escono migliaia di romanzi ogni anno e la maggior parte non arriva nemmeno a cento lettori, non perché siano scritti male ma perché nessuno li vede. Questo libro parte da qui e ti aiuta a trattare la promozione come il seguito naturale del lavoro di scrittura, senza trasformarti in un venditore e senza aspettare che sia l’editore a farla al posto tuo.",
+      "Si comincia dai numeri reali del mercato editoriale italiano e dall’economia dell’attenzione, per arrivare al posizionamento del romanzo e dell’autore, al lettore ideale e alla community da costruire prima dell’uscita. Poi il lavoro diventa operativo: i novanta giorni di pre-lancio, il crowdfunding, ARC e beta reader, Amazon, newsletter, eventi e collaborazioni, l’intelligenza artificiale usata come assistente e la lunga coda dopo il lancio."
+    ],
+    "impari": [
+      "Perché l’editore raramente promuove e perché la qualità, da sola, non basta",
+      "Come posizionare il romanzo, e te stesso come autore, in un mercato affollato",
+      "Come definire il lettore ideale partendo dalla tensione del libro, non dall’età anagrafica",
+      "Un piano di pre-lancio di novanta giorni, con ARC, beta reader e primi lettori attivi",
+      "Come usare categorie, keyword e recensioni su Amazon in modo strategico",
+      "Newsletter, eventi e collaborazioni per tenere vivo il libro nella lunga coda",
+      "Checklist e modelli pronti: descrizione Amazon, email per ARC reader, calendario post-lancio"
+    ],
+    "per_chi": [
+      "Autori indipendenti che pubblicano da soli e devono occuparsi anche della promozione",
+      "Autori pubblicati da case editrici medio-piccole, con poche risorse per il lancio",
+      "Chi sta per uscire con un romanzo e vuole preparare il terreno prima della pubblicazione",
+      "Chi ha già pubblicato e vede il libro fermo dopo le prime settimane"
+    ],
+    "meta_description": "Come promuovere un romanzo in Italia: posizionamento, lettore ideale, pre-lancio, Amazon, newsletter ed eventi, per autori indipendenti e pubblicati.",
+    "keyword": "come promuovere un romanzo",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Terzo Libro Narratologia\\copertina.png",
+    "riga": "Dal pre-lancio alla lunga coda, tarato sul mercato italiano invece che tradotto da quello anglosassone."
+  },
+  "agg": {
+    "titolo": "Narratologia Essenziale. Gli elementi fondamentali della narrazione spiegati con metodo, chiarezza e applicazione – Aggiornamento 2026",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "A chi è rivolto questo manuale"
+        ]
+      },
+      {
+        "parte": "Le Fondamenta: Cos'è una Storia e Come Funziona",
+        "capitoli": [
+          "Benvenuti nel Mondo della Narratologia",
+          "La Struttura Base: Fabula e Intreccio"
+        ]
+      },
+      {
+        "parte": "Tempo, Ritmo e Sequenze",
+        "capitoli": [
+          "Il Tempo della Narrazione",
+          "Alterare l'Ordine: I Salti Temporali (Anacronie)",
+          "Gestire il Ritmo: Durata e Velocità",
+          "Le Dimensioni Nascoste del Tempo: Frequenza e Modo"
+        ]
+      },
+      {
+        "parte": "La Voce Narrante: Chi Racconta?",
+        "capitoli": [
+          "Il Narratore e i Suoi Tipi",
+          "Il Punto di Vista (La Focalizzazione)"
+        ]
+      },
+      {
+        "parte": "Gli Attori della Storia: I Personaggi",
+        "capitoli": [
+          "Ruoli e Funzioni del Personaggio",
+          "Il Modello Attanziale (I Ruoli di Greimas)"
+        ]
+      },
+      {
+        "parte": "Spazio e Dialoghi",
+        "capitoli": [
+          "Lo Spazio e l'Ambientazione",
+          "Le Tecniche del Discorso"
+        ]
+      },
+      {
+        "parte": "La Costruzione del Conflitto e del Tema",
+        "capitoli": [
+          "Il Cuore della Storia — Il Conflitto",
+          "Il Tema — L’Anima della Narrazione",
+          "Dalla Struttura al Senso — Quando la Fabula diventa Idea"
+        ]
+      },
+      {
+        "parte": "Archetipi e Strutture Universali",
+        "capitoli": [
+          "Le Radici della Narrazione — Perché le Storie si Ripetono",
+          "Vladimir Propp e la Morfologia della Fiaba",
+          "Joseph Campbell e il Viaggio dell’Eroe",
+          "Jung e l’Archetipo dell’Inconscio Collettivo",
+          "Dalla Mitologia alla Narrazione Contemporanea",
+          "Applicare gli Archetipi alla Scrittura e all’Analisi"
+        ]
+      },
+      {
+        "parte": "La Narratologia Contemporanea e Digitale",
+        "capitoli": [
+          "La Narrazione nell’Era dei Media",
+          "Lo Storytelling Transmediale",
+          "La Narrazione Algoritmica e l’Intelligenza Artificiale"
+        ]
+      },
+      {
+        "parte": "Analisi Pratica di un Caso Studio Completo",
+        "capitoli": [
+          "Perché “Il Piccolo Principe”?",
+          "Lettura Attiva – Guida per l’Analisi Personale"
+        ]
+      },
+      {
+        "parte": "Come si Costruisce una Storia da Zero",
+        "capitoli": [
+          "Dall’idea alla struttura: l’arco trasformativo della narrazione",
+          "La struttura in tre atti"
+        ]
+      },
+      {
+        "parte": "L’Arte dello Stile: La Voce Profonda della Narrazione",
+        "capitoli": [
+          "Come le scelte linguistiche trasformano la storia in esperienza"
+        ]
+      },
+      {
+        "parte": "Stilistica Avanzata",
+        "capitoli": [
+          "Retorica, ritmica, simboli e strutture profonde della prosa narrativa"
+        ]
+      },
+      {
+        "parte": "Narratologia dei Generi",
+        "capitoli": [
+          "Come il genere narrativo modella struttura, stile, ritmo, conflitto e punto di vista"
+        ]
+      },
+      {
+        "parte": "Gli Errori Comuni degli Aspiranti Autori",
+        "capitoli": [
+          "Perché le storie non funzionano e come correggerle con consapevolezza narratologica",
+          "Esercizi Finali: diagnosticare i propri errori"
+        ]
+      },
+      {
+        "parte": "Glossario, Analisi Pratica e libri suggeriti",
+        "capitoli": [
+          "La Cassetta degli Attrezzi del Narratologo",
+          "Bibliografia Ragionata per Approfondire"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Conclusione: la formazione continua dell’autore e del lettore"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Retorica, ritmica, simboli e strutture profonde della prosa narrativa",
+      "paragrafi": [
+        "Tra gli strumenti più raffinati della scrittura narrativa, l’omissione occupa un posto centrale. Non si tratta semplicemente di “tagliare” informazioni, ma di scegliere consapevolmente cosa non esplicitare, lasciando che sia il lettore a completare il significato. In questo spazio vuoto nasce una forma di coinvolgimento attivo: il lettore non riceve solo la storia, ma la costruisce insieme all’autore.",
+        "L’omissione funziona perché si fonda su ciò che è implicito, su ciò che può essere intuito attraverso gesti, silenzi, micro-azioni. Invece di spiegare emozioni o relazioni, lo scrittore le suggerisce, affidandosi alla capacità interpretativa di chi legge. È un principio di fiducia: meno si dice, più si lascia spazio alla risonanza.",
+        "<em>Lei lo guardò.</em> <em>Lui abbassò gli occhi.</em>",
+        "Non c’è spiegazione, non c’è commento. Eppure, il significato emerge con chiarezza: tensione, imbarazzo, forse colpa o desiderio non dichiarato. È il lettore a colmare il vuoto, rendendo la scena più viva e personale.",
+        "L’arte dell’omissione richiede controllo e precisione. Omettere non significa essere vaghi, ma selettivi. Significa togliere il superfluo per far emergere l’essenziale, affidando al non detto una forza spesso superiore a quella delle parole esplicite."
+      ]
+    },
+    "sottotitolo_breve": "L’edizione 2026 del manuale: struttura, personaggi, arco di trasformazione e stile",
+    "intro": [
+      "Questa è la versione aggiornata e ampliata di Narratologia Essenziale, in formato 6x9 e con una tavola illustrata ad aprire ogni parte. L’impianto resta quello del manuale originale, con quindici parti che vanno da fabula e intreccio fino agli errori più comuni di chi scrive, ma alcune sezioni sono state riscritte a fondo per dare più spazio a quello che ti serve quando passi dalla teoria alla costruzione di una storia tua.",
+      "La parte su come si costruisce una storia da zero ora ruota attorno all’arco di trasformazione: il passaggio dal “what if” al “why”, le due linee della narrazione, interna ed esterna, l’antagonista come specchio del protagonista, il difetto fatale e la ferita, la struttura in tre atti e la trama in sei fasi. Anche la stilistica è stata arricchita, con pagine sulla densità informativa, sull’omissione e sui motivi ricorrenti."
+    ],
+    "impari": [
+      "I fondamenti: fabula e intreccio, tempo e ritmo, narratore, focalizzazione, personaggi, spazio e dialoghi",
+      "Come passare dall’idea iniziale al nucleo narrativo, cioè dal “what if” al “why”",
+      "Le due linee di ogni storia, trama esterna e arco interno, e come si intrecciano",
+      "Il difetto fatale, il suo legame con la ferita e con il tema, e l’antagonista come ombra",
+      "La struttura in tre atti e la trama in sei fasi, con un metodo operativo in sette passi",
+      "Densità informativa, arte dell’omissione e motivi ricorrenti per una prosa più essenziale",
+      "Come thriller, fantasy, romance, horror e giallo modellano struttura, stile e ritmo"
+    ],
+    "per_chi": [
+      "Chi si avvicina alla narratologia e vuole un manuale completo, dalle basi all’applicazione",
+      "Chi scrive narrativa e vuole capire come costruire protagonista, conflitto e arco",
+      "Chi ha letto la prima edizione e vuole le parti riscritte sull’arco di trasformazione e sullo stile",
+      "Lettori, aspiranti sceneggiatori e curiosi che vogliono vedere la struttura dietro le storie"
+    ],
+    "meta_description": "Narratologia Essenziale, aggiornamento 2026: gli elementi della narrazione, dal protagonista all’arco di trasformazione, dal ritmo ai simboli.",
+    "keyword": "elementi della narrazione",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Narratologia Essenziale\\Narratologia Essenziale 2026\\copertina ebook gemini.png",
+    "riga": "La nuova edizione del primo volume: protagonista, antagonista, conflitto, trama in sei fasi, ritmo e simboli.",
+    "legati": [
+      "01",
+      "wb"
+    ]
+  },
+  "05": {
+    "titolo": "SCRIVERE PER DAVVERO",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "A cosa serve questo manuale?",
+          "Quando il lettore non capisce",
+          "Scrivere bene",
+          "La pagina bianca",
+          "Gli strumenti della narrazione trasparente",
+          "Focus",
+          "Come essere trasparente",
+          "Costruire personaggi indimenticabili",
+          "Il dialogo come azione",
+          "Struttura narrativa",
+          "Worldbuilding",
+          "Lo scrittore professionista",
+          "Diagnosi editoriale",
+          "Conclusione",
+          "Appendice — Letture consigliate"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Come essere trasparente",
+      "paragrafi": [
+        "La narrativa debole giustappone eventi. La narrativa forte li connette. <em>E poi</em> è il connettivo più neutro che esiste — dice che due cose sono successe in sequenza, niente di più. <em>Per questo</em>, <em>per cui</em>, <em>e allora</em>, <em>ma</em>, <em>perché</em>: questi connettivi dicono che una cosa ha causato l'altra, che il mondo della storia obbedisce a una logica, che le azioni hanno conseguenze.",
+        "La causalità fa due cose contemporaneamente. Crea logica narrativa — il lettore capisce perché le cose succedono, e quella comprensione produce soddisfazione. E accelera il ritmo — il lettore non si ferma a chiedersi come si sia passati da A a B, perché il testo gli ha già risposto.",
+        "<em>Uscì senza ombrello. Si fermò sotto la tettoia dell'edicola.</em>",
+        "Questi sono due eventi in sequenza. Non sappiamo perché il secondo segue il primo.",
+        "<em>Uscì senza ombrello, e fu costretto a fermarsi sotto la tettoia dell'edicola mentre la pioggia cominciava.</em>",
+        "Adesso c'è una catena. Una scelta — uscire senza ombrello — ha prodotto una conseguenza. Il lettore non deve ricostruire il collegamento: è già nel testo. E quella edicola, quella sosta forzata, può diventare il luogo in cui accade qualcosa di rilevante — e il lettore saprà già come ci siamo arrivati."
+      ]
+    },
+    "sottotitolo_breve": "Un manuale di stile narrativo per una prosa che fa vedere la storia a chi legge",
+    "intro": [
+      "Questo è un libro sulla prosa, cioè sul modo in cui le parole si dispongono sulla pagina e costruiscono nella testa di chi legge un film che non è il tuo. Quando scrivi conosci già tutto dei tuoi personaggi, e proprio per questo dai per scontate informazioni che sulla pagina non ci sono: il lettore allora si perde, colma i vuoti a modo suo, e spesso chiude il libro. Il manuale parte da qui, dalla distanza tra quello che hai in mente e quello che arriva davvero.",
+      "Da quel punto il percorso sale per gradi: il decalogo del buon romanziere e i sette peccati della prosa, gli otto modi di aprire un romanzo, la narrazione trasparente e la focalizzazione, i personaggi, il dialogo come azione, la struttura e il worldbuilding. Chiudono il libro un metodo di revisione in sei letture e un capitolo di diagnosi editoriale, con esercizi pratici lungo tutto il percorso, perché la tecnica ti serve solo quando la metti alla prova sulla tua pagina."
+    ],
+    "impari": [
+      "Riconoscere le cinque incomprensioni che inceppano il film mentale del lettore, e come evitarle",
+      "Il decalogo del buon romanziere e i sette peccati capitali della prosa",
+      "Otto modi di aprire un romanzo, con i rischi di ciascuno, e come evitare il preambolo raccontato",
+      "Mostrare un'emozione senza nominarla: filtro del personaggio, sensazioni, fraseggio interiore, azione rivelatrice",
+      "Governare la focalizzazione, evitando salti di testa e descrizioni che il personaggio non potrebbe fare",
+      "Usare il dialogo come azione, con sottotesto, tag e gesti al posto giusto",
+      "Rivedere il manoscritto in sei letture e diagnosticarlo con lo sguardo di un editor"
+    ],
+    "per_chi": [
+      "Chi ha una storia solida ma sente che la prosa non regge il confronto con i libri che ama",
+      "Chi invia il manoscritto a editori e agenti e riceve soltanto rifiuti standard",
+      "Chi è all'inizio e vuole costruire le basi dello stile nel modo giusto",
+      "Chi scrive già bene e vuole capire con precisione quello che fa"
+    ],
+    "meta_description": "Manuale di scrittura creativa di Rosario Di Leva: come costruire una prosa professionale, dal film mentale del lettore alla revisione.",
+    "keyword": "manuale di scrittura creativa",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Manuale di stile RDL\\copertina 1.png",
+    "riga": "Governare il film mentale del lettore: quando mostrare, quando sintetizzare, quando tacere."
+  },
+  "06": {
+    "titolo": "Come Scrivere un Thriller di Successo",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Introduzione — Prima di cominciare a scrivere"
+        ]
+      },
+      {
+        "parte": "Parte I — La mente del thriller",
+        "capitoli": [
+          "Perché il thriller domina il mercato",
+          "La differenza tra thriller, giallo, noir e crime",
+          "Il lettore di thriller: psicologia della tensione",
+          "Il patto narrativo della paura controllata",
+          "Il concetto di minaccia"
+        ]
+      },
+      {
+        "parte": "Parte II — L’architettura della tensione",
+        "capitoli": [
+          "Il Motore del thriller",
+          "L’Equilibrio Instabile iniziale",
+          "La Prima Frattura",
+          "Escalation progressiva",
+          "Il Punto di Non Ritorno",
+          "Il Falso Sollievo",
+          "Il Climax come collisione inevitabile"
+        ]
+      },
+      {
+        "parte": "Parte III — Personaggi che generano pericolo",
+        "capitoli": [
+          "Il Protagonista vulnerabile",
+          "L’Antagonista intelligente",
+          "Il Sistema ostile",
+          "Il Segreto come carburante narrativo",
+          "Il Doppio livello: esterno e interno"
+        ]
+      },
+      {
+        "parte": "Parte IV — Tecniche di scrittura della tensione",
+        "capitoli": [
+          "Ritmo e frasi corte",
+          "Informazione differita",
+          "Cliffhanger veri vs falsi",
+          "Gestione dei capitoli brevi",
+          "Mostrare vs trattenere",
+          "La gestione del punto di vista nel thriller"
+        ]
+      },
+      {
+        "parte": "Parte V — Errori fatali",
+        "capitoli": [
+          "Thriller senza minaccia reale",
+          "Antagonista debole",
+          "Colpo di scena non preparato",
+          "Falso ritmo",
+          "Finale che non paga il debito emotivo"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Epilogo — Il thriller come atto di rispetto",
+          "Capitolo bonus — Il Thriller nel Mercato Italiano: Numeri, Struttura, Segmenti"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Cliffhanger veri vs falsi",
+      "paragrafi": [
+        "Il cliffhanger è uno degli strumenti più citati e più fraintesi nella tecnica del thriller. Viene spesso presentato come la soluzione automatica al problema dell’attenzione: “chiudi ogni capitolo con una bomba e il lettore non smetterà di leggere”. In parte è vero. Ma solo in parte. Perché il cliffhanger funziona soltanto quando è reale. Quando è falso, quando è meccanico, quando è percepito come trucco, non solo perde efficacia: corrode la fiducia del lettore.",
+        "La distinzione tra cliffhanger vero e cliffhanger falso è quindi strutturale, non stilistica.",
+        "Un cliffhanger vero è una sospensione autentica. La storia si interrompe in un momento in cui qualcosa di realmente importante è incerto. L’esito è significativo. Le conseguenze sono alte. La domanda aperta è una domanda che conta davvero per la trama, per il protagonista, per la posta in gioco costruita fino a quel punto.",
+        "Un cliffhanger falso è una sospensione simulata. Sembra drammatica, ma non lo è. O perché il pericolo non è credibile. O perché la domanda aperta è secondaria. O perché il capitolo successivo smonta tutto in poche righe, rivelando che la minaccia era solo apparente.",
+        "Il lettore impara molto velocemente a riconoscere la differenza.",
+        "Se un capitolo si chiude con “qualcuno bussò alla porta” e quello successivo rivela che è il postino, il lettore registra un dato: il testo usa la sospensione come trucco. Se questo accade più volte, il lettore si protegge. Riduce il proprio investimento emotivo. Non prende più sul serio le crisi narrative."
+      ]
+    },
+    "sottotitolo_breve": "Metodo e struttura per costruire la tensione di un thriller, dalla minaccia al finale",
+    "intro": [
+      "Quando un thriller smette di funzionare, di solito il guaio non sta nella frase o nel dialogo che rileggi per la decima volta, ma più in profondità, in una tensione che nessuno ha preparato per tempo. Questo libro parte da una premessa semplice: il thriller è un genere tecnico, e la paura che il lettore cerca volentieri si progetta, si dosa e si mantiene con scelte precise di struttura, di personaggi e di ritmo.",
+      "Il percorso è diviso in cinque parti. Si comincia dalla mente del lettore e dal patto della paura controllata, poi si entra nell'architettura della tensione, con il Motore del thriller e le sue fasi, dalla Prima Frattura al Climax. Seguono i personaggi che generano pericolo, le tecniche di scrittura, cioè ritmo, informazione differita, cliffhanger e punto di vista, e gli errori che affossano anche un'idea valida. In chiusura trovi un capitolo sul mercato italiano del thriller."
+    ],
+    "impari": [
+      "Perché il thriller domina il mercato e cosa lo distingue da giallo, noir e crime",
+      "Il Motore del thriller e le sue fasi, dall'Equilibrio Instabile al Climax",
+      "Come usare il Falso Sollievo per rendere più duro il colpo successivo",
+      "Costruire un protagonista vulnerabile, un antagonista intelligente e un sistema ostile credibile",
+      "Distinguere il cliffhanger vero da quello falso, che consuma la fiducia del lettore",
+      "Preparare un colpo di scena con la semina, perché sorprenda e sembri inevitabile",
+      "Riconoscere gli errori fatali, dal falso ritmo al finale che non paga il debito emotivo"
+    ],
+    "per_chi": [
+      "Chi sta scrivendo un thriller e vuole una struttura che regga fino all'ultima pagina",
+      "Chi ha un manoscritto che perde tensione a metà e non riesce a capire perché",
+      "Chi scrive gialli, noir o crime e vuole capire come funziona la suspense",
+      "Il lettore appassionato che vuole sapere perché certi libri lo tengono sveglio la notte"
+    ],
+    "meta_description": "Come scrivere un thriller: metodo, struttura e psicologia della tensione narrativa, dalla prima frattura al finale. Il manuale di Rosario Di Leva.",
+    "keyword": "come scrivere un thriller",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Narratologia Thriller\\3c3d2cc4-b016-495c-b1f3-6e502c30a758.png",
+    "riga": "Escalation che non collassa a metà romanzo, antagonista come motore, e i numeri reali del genere in Italia."
+  },
+  "07": {
+    "titolo": "Come Scrivere l'Incipit Perfetto",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Introduzione — Dove comincia davvero un romanzo"
+        ]
+      },
+      {
+        "parte": "Parte I — Perché l’inizio decide il destino del romanzo",
+        "capitoli": [
+          "Il patto iniziale con il lettore",
+          "Perché tanti romanzi falliscono nelle prime pagine",
+          "La funzione narratologica dell’incipit",
+          "Curiosità, tensione e promessa narrativa"
+        ]
+      },
+      {
+        "parte": "Parte II — Anatomia dell’incipit",
+        "capitoli": [
+          "Le cinque funzioni dell’inizio narrativo",
+          "La prima frase",
+          "La prima scena",
+          "La prima promessa narrativa"
+        ]
+      },
+      {
+        "parte": "Parte III — I grandi modelli di incipit",
+        "capitoli": [
+          "L’incipit in medias res",
+          "L’incipit enigmatico",
+          "L’incipit atmosferico",
+          "L’incipit disturbante",
+          "L’incipit del cambiamento",
+          "L’incipit della voce"
+        ]
+      },
+      {
+        "parte": "Parte IV — Errori fatali negli incipit",
+        "capitoli": [
+          "L’infodump",
+          "L’incipit statico",
+          "Il falso mistero",
+          "Il prologo inutile",
+          "La falsa originalità"
+        ]
+      },
+      {
+        "parte": "Parte V — Metodo pratico per costruire l’incipit",
+        "capitoli": [
+          "Progettare l’apertura",
+          "Il test delle tre domande",
+          "Come capire se l’incipit funziona",
+          "Riscrivere le prime pagine",
+          "L’incipit dopo aver finito il romanzo"
+        ]
+      },
+      {
+        "parte": "Parte VI — Anatomia degli incipit celebri",
+        "capitoli": [
+          "Kafka e l’incipit che distrugge la normalità",
+          "Orwell e l’incipit che costruisce il mondo",
+          "García Márquez e l’incipit che contiene tutta la storia",
+          "Camus e l’incipit che definisce un personaggio",
+          "Calvino e l’incipit che coinvolge il lettore"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Epilogo — La prima pagina che il lettore non dimentica"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "L’incipit statico",
+      "paragrafi": [
+        "Anche una scena molto tranquilla può essere dinamica se contiene una tensione implicita.",
+        "Immaginiamo, ad esempio, un personaggio che prepara il caffè al mattino. Se la scena descrive semplicemente la routine quotidiana, l’inizio rimane statico. Ma se il personaggio aspetta una telefonata importante, oppure teme l’arrivo di qualcuno, la stessa azione acquista immediatamente tensione.",
+        "La differenza non riguarda ciò che il personaggio sta facendo, ma ciò che potrebbe accadere.",
+        "La presenza di una possibilità di cambiamento trasforma una scena statica in una scena narrativa.",
+        "Per questo motivo uno degli obiettivi principali dell’incipit consiste nel suggerire che la situazione iniziale non rimarrà identica a se stessa.",
+        "Il lettore deve percepire una forma di instabilità.",
+        "Questa instabilità può essere minima: una decisione imminente, un segreto nascosto, una relazione fragile, un evento che sta per verificarsi. Non è necessario che il cambiamento avvenga immediatamente.",
+        "È sufficiente che la scena contenga un segnale.",
+        "Quando questo segnale è presente, la mente del lettore comincia a costruire aspettative. Anche se la situazione è calma, si percepisce che qualcosa si muoverà."
+      ]
+    },
+    "sottotitolo_breve": "Come progettare la prima frase, la prima scena e le prime pagine di un romanzo",
+    "intro": [
+      "Il lettore decide se restare nelle prime righe, quando ancora non sa nulla dei tuoi personaggi e del tuo mondo, e in quelle righe cerca soprattutto una cosa: la sensazione che la storia stia cominciando davvero. Questo libro tratta l'incipit come un meccanismo narrativo da osservare e costruire con consapevolezza, non come un colpo di fortuna, e parte dal patto che le prime pagine stringono con chi le legge.",
+      "Troverai le cinque funzioni di ogni inizio, il lavoro sulla prima frase, sulla prima scena e sulla promessa narrativa, sei grandi modelli di apertura e cinque errori che spingono ad abbandonare un libro, dall'infodump al prologo inutile. Poi si passa al metodo, con il test delle tre domande e la riscrittura delle prime pagine a romanzo finito, e si chiude con l'analisi di cinque incipit celebri, da Kafka a Calvino."
+    ],
+    "impari": [
+      "Le cinque funzioni che ogni inizio deve attivare, dalla curiosità alla direzione della storia",
+      "Come lavorare sulla prima frase, sulla prima scena e sulla prima promessa narrativa",
+      "Sei modelli di apertura: in medias res, enigmatico, atmosferico, disturbante, del cambiamento, della voce",
+      "Riconoscere infodump, incipit statico, falso mistero, prologo inutile e falsa originalità",
+      "Il test delle tre domande per capire se le tue prime pagine reggono",
+      "Riscrivere l'incipit dopo aver finito il romanzo e trovare il vero punto d'ingresso",
+      "Cosa insegnano gli incipit di Kafka, Orwell, García Márquez, Camus e Calvino"
+    ],
+    "per_chi": [
+      "Chi ha riscritto l'inizio del romanzo più volte e non è convinto di nessuna versione",
+      "Chi ha finito la prima stesura e deve rimettere mano alle prime pagine",
+      "Chi sta per far leggere il manoscritto e sa che molto si decide nelle prime righe",
+      "Chi vuole capire perché certi inizi celebri funzionano, oltre ad ammirarli"
+    ],
+    "meta_description": "Come scrivere l'incipit di un romanzo: funzioni, modelli, errori da evitare e un metodo pratico per prime pagine che il lettore non abbandona.",
+    "keyword": "come scrivere un incipit",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Incipit\\cover aprile front.png",
+    "riga": "Le cinque funzioni dell'apertura e il test delle tre domande, con gli incipit di Kafka, Orwell, Camus e Calvino smontati."
+  },
+  "08": {
+    "titolo": "Scrivere Dialoghi che Funzionano",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Introduzione — Perché il dialogo uccide (o salva) una storia"
+        ]
+      },
+      {
+        "parte": "Parte I — Che cos'è davvero un dialogo",
+        "capitoli": [
+          "Il dialogo non è conversazione: è conflitto compresso",
+          "Le tre funzioni del dialogo: azione, rivelazione, atmosfera",
+          "Voce vs parlato: perché i personaggi non parlano come le persone"
+        ]
+      },
+      {
+        "parte": "Parte II — La struttura del dialogo",
+        "capitoli": [
+          "Ogni battuta vuole qualcosa: desiderio e obiettivo nascosto",
+          "Il sottotesto: ciò che non viene detto è ciò che conta",
+          "L'asimmetria informativa: chi sa cosa, e quando",
+          "Come entra e come esce il dialogo da una scena"
+        ]
+      },
+      {
+        "parte": "Parte III — Costruire voci distinte",
+        "capitoli": [
+          "Il profilo vocale: come ogni personaggio ha il suo idioma",
+          "Dialetto, registro, idioletto: usarli senza cadere nella caricatura",
+          "Il silenzio come battuta: pause, reticenze, interruzioni"
+        ]
+      },
+      {
+        "parte": "Parte IV — Il dialogo in movimento",
+        "capitoli": [
+          "Ritmo e respiro: come il dialogo accelera o rallenta la scena",
+          "I tag di dialogo: disse, chiese, e tutto quello che c'è in mezzo",
+          "Dialogo e azione: intrecciare parole e gesti senza fermare la storia"
+        ]
+      },
+      {
+        "parte": "Parte V — Errori fatali e revisione",
+        "capitoli": [
+          "I sei peccati capitali del dialogo",
+          "Il dialogo come termometro: diagnosticare una scena che non funziona",
+          "Riscrivere il dialogo: metodo di revisione pratico"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Epilogo — La voce degli altri: il dialogo come atto di ascolto"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Il dialogo non è conversazione: è conflitto compresso",
+      "paragrafi": [
+        "La distinzione tra conflitto esplicito e conflitto sotterraneo è fondamentale perché molti scrittori, quando sentono che manca conflitto nel loro dialogo, reagiscono inserendo argomenti. I personaggi iniziano a litigare, ad alzare la voce, a dire cose che non possono essere ritirate. A volte funziona. Più spesso, il conflitto esplicito è meno interessante del conflitto sotterraneo perché elimina il lavoro del lettore. Se tutto è dichiarato, non c'è niente da interpretare, da intuire, da temere. La tensione nasce dall'incertezza, non dalla chiarezza.",
+        "Consideriamo due versioni dello stesso scambio tra due colleghi, uno dei quali ha appena scoperto che l'altro lo ha escluso da un progetto importante.",
+        "Prima versione, conflitto esplicito:",
+        "<em>«Perché non mi hai detto del progetto?»</em>",
+        "<em>«Non lo so. Mi sono dimenticato.»</em>",
+        "<em>«Non ti sei dimenticato. Hai deciso di escludermi.»</em>",
+        "Seconda versione, conflitto compresso:",
+        "<em>«Ho sentito del progetto con Ferretti.»</em>",
+        "<em>«Sì, è ancora in fase preliminare.»</em>",
+        "<em>«Capisco. Grazie per dirmelo.»</em>",
+        "<em>Una pausa. Poi: «Quando partite?»</em>",
+        "La prima versione dice al lettore cosa sta succedendo. La seconda glielo fa sentire. In entrambi i casi c'è conflitto. Ma nella seconda versione il conflitto è compresso nelle parole sbagliate usate per dire le cose giuste: \"ho sentito\" invece di \"perché non mi hai detto\", \"grazie per dirmelo\" quando non c'è niente per cui ringraziare. Il lettore capisce tutto senza che nulla venga dichiarato. E questa comprensione silenziosa è più potente di qualsiasi accusa esplicita."
+      ]
+    },
+    "sottotitolo_breve": "Tecniche per scrivere dialoghi con conflitto, sottotesto e voci riconoscibili",
+    "intro": [
+      "Se copri tutto il testo e lasci visibili solo le battute, capisci subito se i tuoi dialoghi lavorano per la storia o se si limitano a riempire la pagina. Questo libro parte da un'idea precisa: il dialogo non è la trascrizione di una conversazione ma conflitto compresso, il punto in cui i personaggi usano le parole per ottenere qualcosa, e quasi mai dicono apertamente quello che vogliono.",
+      "Il percorso è diviso in cinque parti: che cos'è davvero un dialogo, come è costruito, come si danno voci distinte ai personaggi, come il dialogo si muove dentro la scena e come si corregge quando non funziona. Lungo la strada trovi esempi scritti apposta per mostrare la differenza tra una battuta che informa e una che fa succedere qualcosa, e alla fine un metodo di revisione in sei passaggi da applicare alle tue scene."
+    ],
+    "impari": [
+      "Le tre funzioni del dialogo, azione, rivelazione e atmosfera, e come accorgerti di quella che manca",
+      "Dare a ogni battuta un desiderio e un obiettivo nascosto",
+      "Usare sottotesto e asimmetria informativa per creare tensione senza dichiarare nulla",
+      "Entrare in un dialogo il più tardi possibile e uscirne prima che si spenga",
+      "Costruire un profilo vocale per ogni personaggio, con dialetto e registro senza caricatura",
+      "Governare il ritmo della scena con pause, reticenze, tag e gesti",
+      "I sei peccati capitali del dialogo e un protocollo di revisione in sei operazioni"
+    ],
+    "per_chi": [
+      "Chi sente che i propri dialoghi suonano falsi ma non riesce a capire perché",
+      "Chi copre i nomi dei personaggi e non distingue più chi sta parlando",
+      "Chi ha scene di dialogo corrette ma piatte, che non spostano la storia",
+      "Chi scrive già con mestiere e vuole più consapevolezza sulle proprie scelte"
+    ],
+    "meta_description": "Come scrivere dialoghi che funzionano: conflitto, sottotesto, voci distinte, ritmo e revisione in un manuale pratico di Rosario Di Leva.",
+    "keyword": "come scrivere dialoghi",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Dialoghi\\copertina 3.png",
+    "riga": "Sottotesto, silenzi, voci distinguibili. Il dialogo non è conversazione: è ciò che i personaggi fanno con le parole."
+  },
+  "09": {
+    "titolo": "L'Architettura dei Personaggi che Funzionano",
+    "indice": [
+      {
+        "parte": "Parte I — Cos'è un personaggio",
+        "capitoli": [
+          "Il personaggio non è una persona",
+          "Funzione narrativa vs realismo",
+          "Il personaggio come sistema di desiderio"
+        ]
+      },
+      {
+        "parte": "Parte II — Il protagonista",
+        "capitoli": [
+          "Desiderio, bisogno e ferita",
+          "Obiettivo esterno vs conflitto interno",
+          "L'arco di trasformazione"
+        ]
+      },
+      {
+        "parte": "Parte III — L'antagonista",
+        "capitoli": [
+          "Cos'è davvero un antagonista",
+          "Antagonista come forza, non persona",
+          "Antagonisti memorabili"
+        ]
+      },
+      {
+        "parte": "Parte IV — Il sistema dei personaggi",
+        "capitoli": [
+          "Il sistema dei personaggi",
+          "Archetipi: perché funzionano",
+          "I principali archetipi narrativi",
+          "Archetipi e trasformazione del personaggio",
+          "Usare gli archetipi senza diventare banali",
+          "Dinamiche tra personaggi"
+        ]
+      },
+      {
+        "parte": "Parte V — Voce e dialogo",
+        "capitoli": [
+          "Voce del personaggio",
+          "Idioletto e linguaggio",
+          "Dialogo come conflitto"
+        ]
+      },
+      {
+        "parte": "Parte VI — Gli errori",
+        "capitoli": [
+          "Personaggi tutti uguali",
+          "Personaggi senza desiderio",
+          "Personaggi senza conflitto"
+        ]
+      },
+      {
+        "parte": "Parte VII — Il metodo",
+        "capitoli": [
+          "Il Metodo RDL"
+        ]
+      },
+      {
+        "parte": "Appendici operative",
+        "capitoli": [
+          "Appendice A — Strumenti per la definizione del personaggio",
+          "Appendice B — L'Intervista del Personaggio"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Desiderio, bisogno e ferita",
+      "paragrafi": [
+        "La ferita deve essere proporzionata al bisogno che genera. Questo sembra ovvio ma è una delle aree in cui gli scrittori alle prime armi commettono errori sistematici, solitamente in due direzioni opposte.",
+        "Il primo errore è la ferita melodrammatica: un trauma così spettacolare e distruttivo da rendere il personaggio psicologicamente impossibile. Se il protagonista ha perso l'intera famiglia in modo violento, è stato torturato, abusato, tradito da ogni persona di cui si è fidato e nonostante tutto funziona come investigatore brillante e sarcastico con un appartamento disordinato ma vivibile — c'è una sproporzione che il lettore avverte come artificiale.",
+        "Il secondo errore è la ferita insignificante: un background così normale e privo di dolore da non giustificare il bisogno insoddisfatto del personaggio. Se il protagonista è emotivamente chiuso e incapace di intimità, ma non c'è nulla nel suo passato che spieghi questa condizione, il lettore avverte la costruzione come arbitraria.",
+        "La ferita credibile è quella proporzionata: abbastanza significativa da spiegare il bisogno, abbastanza umana da essere riconoscibile. Spesso le ferite più efficaci non sono i traumi eclatanti ma le perdite silenziose — l'assenza cronica, il rifiuto sottile, la colpa non detta."
+      ]
+    },
+    "sottotitolo_breve": "Desiderio, ferita, antagonisti e voce: progettare personaggi che reggono il romanzo",
+    "intro": [
+      "Un personaggio non è una persona da descrivere, con età, colore degli occhi e un trauma d'infanzia appuntato in fondo alla scheda: è prima di tutto una funzione dentro la storia, e la sua profondità serve a far lavorare quella funzione. Il manuale parte da qui e ti accompagna un livello alla volta, dal desiderio che muove il protagonista alla ferita che lo spiega, fino al bisogno che non sa di avere e al falso bisogno che porta addosso come un'armatura.",
+      "Poi allarga lo sguardo a tutto il cast: l'antagonista come specchio o come forza impersonale, i personaggi secondari come ecosistema, gli archetipi da usare senza scivolare nello stereotipo, la voce e l'idioletto che rendono ogni figura riconoscibile da come parla. Una parte intera è dedicata agli errori più frequenti, e l'ultima raccoglie tutto nel Metodo RDL (Radice, Dinamica, Linguaggio), con un personaggio costruito passo per passo e gli strumenti in appendice per applicarlo ai tuoi."
+    ],
+    "impari": [
+      "Perché un personaggio si progetta a partire dalla sua funzione nella storia, e solo dopo dalla biografia",
+      "Il triangolo desiderio, bisogno e ferita, e il falso bisogno che protegge il personaggio impedendogli di crescere",
+      "Come intrecciare obiettivo esterno e conflitto interno con le scelte forzate, e le sei fasi dell'arco",
+      "Come costruire un antagonista legittimo: specchio del protagonista, forza impersonale o sistema, e memorabile",
+      "Gli archetipi essenziali (Eroe, Mentore, Ombra, Trickster, Guardiano della Soglia) e la tecnica dell'inversione",
+      "Voce, idioletto e dialogo come conflitto, per distinguere i personaggi e dare sottotesto alle battute",
+      "Il Metodo RDL in tre fasi, sei strumenti diagnostici e un'intervista del personaggio in sette sezioni"
+    ],
+    "per_chi": [
+      "Chi ha una trama che regge ma personaggi che sembrano pedine mosse dall'autore",
+      "Chi scrive thriller, noir o narrativa di genere e vuole protagonisti e antagonisti all'altezza della tensione",
+      "Chi rilegge i propri dialoghi e si accorge che tutti i personaggi parlano allo stesso modo",
+      "Chi vuole un metodo da usare in progettazione e poi di nuovo in revisione, per verificare la coerenza"
+    ],
+    "meta_description": "Come costruire un personaggio che regge il romanzo: desiderio, ferita, arco, antagonista, archetipi e voce, con il Metodo RDL.",
+    "keyword": "come costruire un personaggio",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Personaggio\\ebook cover.png",
+    "riga": "Archi di trasformazione, antagonisti intelligenti, archetipi senza cliché, relazioni che generano tensione."
+  },
+  "10": {
+    "titolo": "La Revisione del Romanzo",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "A chi è rivolto questo manuale",
+          "Introduzione. La prima stesura non è il libro"
+        ]
+      },
+      {
+        "parte": "Parte I — Prima di revisionare",
+        "capitoli": [
+          "La decantazione",
+          "La rilettura diagnostica",
+          "Il piano delle passate"
+        ]
+      },
+      {
+        "parte": "Parte II — Le passate strutturali",
+        "capitoli": [
+          "Passata 1: la storia",
+          "Passata 2: struttura e ritmo",
+          "Passata 3: i personaggi",
+          "Punto di vista e voce",
+          "Buchi, causalità, setup e payoff",
+          "L'inizio e il finale"
+        ]
+      },
+      {
+        "parte": "Parte III — Le passate di pagina",
+        "capitoli": [
+          "Passata 4: le scene",
+          "Passata 5: i dialoghi",
+          "Mostrare e raccontare",
+          "Passata 6: la frase",
+          "Passata 7: bozze e refusi"
+        ]
+      },
+      {
+        "parte": "Parte IV — Oltre l'auto-editing",
+        "capitoli": [
+          "I beta reader",
+          "Quando serve il professionista",
+          "Quando fermarsi"
+        ]
+      },
+      {
+        "parte": "Appendici",
+        "capitoli": [
+          "Appendice A. Le sette passate in una pagina",
+          "Appendice B. Le schede in bianco",
+          "Appendice C. Glossario minimo dell'editing",
+          "Appendice D. Il caso di studio in numeri: la revisione de \"La casa sul confine\"",
+          "Appendice E. Tre piani di lavoro esemplificativi",
+          "Appendice F. Bibliografia ragionata per approfondire"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Passata 6: la frase",
+      "paragrafi": [
+        "Una pagina della prima stesura, dalla scena in cui Michele sale finalmente al rifugio. Con i numeri accanto alle infestanti:",
+        "PRIMA",
+        "Michele cominciò a salire [5] il sentiero che portava al rifugio. Si rese conto che [3] il bosco era molto più fitto [5] di come se lo ricordava. C'era [4] un silenzio assordante [7] intorno a lui. Sentiva che [3] il cuore gli batteva velocemente [2] per la salita e forse anche per la paura che provava [12: etichetta sfuggita]. Dopo circa un'ora di cammino vide che [3] il rifugio era ancora lì. Era [4] una costruzione bassa di pietra, che aveva [4] il tetto in lamiera che era stato [4] riparato di recente. Michele si avvicinò lentamente [2] alla porta e notò che [3] il lucchetto era nuovo. Sospirò [Lista Nera]. In qualche modo [5] aveva sempre saputo che quel posto aveva ancora un segreto da custodire, in qualche modo [1+5] tutto lo aveva portato fino a lì.",
+        "Ventidue segnalazioni in un paio di capoversi, che è la densità normale di una prima stesura: nessun dramma. Dopo la passata:",
+        "DOPO",
+        "Il sentiero saliva più stretto di come Michele lo ricordava: il bosco si era ripreso i bordi, un metro per anno, trent'anni. Nessun rumore oltre il suo fiato. Il rifugio era ancora lì. Pietra bassa, tetto in lamiera: lamiera nuova, si accorse solo dopo, nuova come il lucchetto sulla porta. Qualcuno riparava, qualcuno chiudeva a chiave. Da trent'anni tutti gli dicevano che quassù non c'era niente. Il lucchetto diceva un'altra cosa."
+      ],
+      "didascalia": "Nel capitolo le «infestanti» della frase sono divise in famiglie numerate: i numeri fra parentesi quadre segnano a quale famiglia appartiene ogni punto da correggere."
+    },
+    "sottotitolo_breve": "Il metodo delle sette passate per trasformare la prima stesura in un libro pubblicabile",
+    "intro": [
+      "Hai scritto la parola fine, e davanti hai un file che non è ancora un libro. Questo manuale ti insegna a fare da solo il lavoro di un editor, con un ordine preciso: si procede dal grande al piccolo, perché non ha senso limare le virgole di una scena che forse andrà tagliata. Prima la decantazione, poi una sola rilettura diagnostica, poi un piano di lavoro con i tempi e un sistema di versioni dei file.",
+      "Da lì partono le sette passate, ognuna con un solo compito: la storia, la struttura e il ritmo, i personaggi, le scene, i dialoghi, la frase, le bozze. Ogni capitolo ti mette davanti un brano di prima stesura e la sua versione revisionata, con il commento delle scelte, e si chiude con esercizi e una scheda da compilare sul tuo manoscritto. In fondo trovi i beta reader, il rapporto con i professionisti e il modo di capire quando fermarti."
+    ],
+    "impari": [
+      "L'ordine delle sette passate, dal romanzo come sistema fino alla singola pagina, e perché non va invertito",
+      "Come far riposare il manoscritto e rileggerlo una sola volta, da lettore, con un sistema di simboli",
+      "Come costruire la mappa delle scene e decidere che cosa tagliare, spostare, accorpare o aggiungere",
+      "Come verificare punto di vista, catena delle cause, promesse da pagare, incipit e finale",
+      "Le sette famiglie di infestanti della frase e come compilare la tua Lista Nera personale",
+      "Come usare i beta reader, scegliere un professionista e riconoscere il momento in cui il libro è pronto",
+      "Passata per passata, che cosa puoi chiedere all'intelligenza artificiale e che cosa resta una decisione tua"
+    ],
+    "per_chi": [
+      "Chi ha appena finito la prima stesura, o sta per finirla, e non sa da dove cominciare",
+      "Chi pubblica da indipendente e vuole capire se, e dove, gli serve davvero un editor",
+      "Chi vuole mandare il manoscritto a editori e agenzie nella forma migliore possibile",
+      "Chi revisiona rileggendo dall'inizio e sistemando tutto insieme, e non arriva mai in fondo"
+    ],
+    "meta_description": "Come revisionare un romanzo con il metodo delle sette passate: dalla prima stesura al libro pubblicabile, con esempi prima e dopo e 17 schede.",
+    "keyword": "come revisionare un romanzo",
+    "schede": [
+      {
+        "n": 1,
+        "scheda": "La Lista dei Sospetti",
+        "capitolo": 1,
+        "titolo_capitolo": "La decantazione",
+        "passata": null,
+        "parte": "Parte I — Prima di revisionare"
+      },
+      {
+        "n": 2,
+        "scheda": "La Griglia di Diagnosi",
+        "capitolo": 2,
+        "titolo_capitolo": "La rilettura diagnostica",
+        "passata": null,
+        "parte": "Parte I — Prima di revisionare"
+      },
+      {
+        "n": 3,
+        "scheda": "Il Piano delle Passate",
+        "capitolo": 3,
+        "titolo_capitolo": "Il piano delle passate",
+        "passata": null,
+        "parte": "Parte I — Prima di revisionare"
+      },
+      {
+        "n": 4,
+        "scheda": "Il Test della Premessa",
+        "capitolo": 4,
+        "titolo_capitolo": "Passata 1: la storia",
+        "passata": "Passata 1",
+        "parte": "Parte II — Le passate strutturali"
+      },
+      {
+        "n": 5,
+        "scheda": "La Mappa delle Scene",
+        "capitolo": 5,
+        "titolo_capitolo": "Passata 2: struttura e ritmo",
+        "passata": "Passata 2",
+        "parte": "Parte II — Le passate strutturali"
+      },
+      {
+        "n": 6,
+        "scheda": "L'Audit del Personaggio",
+        "capitolo": 6,
+        "titolo_capitolo": "Passata 3: i personaggi",
+        "passata": "Passata 3",
+        "parte": "Parte II — Le passate strutturali"
+      },
+      {
+        "n": 7,
+        "scheda": "La Verifica POV",
+        "capitolo": 7,
+        "titolo_capitolo": "Punto di vista e voce",
+        "passata": null,
+        "parte": "Parte II — Le passate strutturali"
+      },
+      {
+        "n": 8,
+        "scheda": "La Tabella Setup & Payoff",
+        "capitolo": 8,
+        "titolo_capitolo": "Buchi, causalità, setup e payoff",
+        "passata": null,
+        "parte": "Parte II — Le passate strutturali"
+      },
+      {
+        "n": 9,
+        "scheda": "Checklist Incipit e Finale",
+        "capitolo": 9,
+        "titolo_capitolo": "L'inizio e il finale",
+        "passata": null,
+        "parte": "Parte II — Le passate strutturali"
+      },
+      {
+        "n": 10,
+        "scheda": "La Scheda di Scena",
+        "capitolo": 10,
+        "titolo_capitolo": "Passata 4: le scene",
+        "passata": "Passata 4",
+        "parte": "Parte III — Le passate di pagina"
+      },
+      {
+        "n": 11,
+        "scheda": "Il Pettine dei Dialoghi",
+        "capitolo": 11,
+        "titolo_capitolo": "Passata 5: i dialoghi",
+        "passata": "Passata 5",
+        "parte": "Parte III — Le passate di pagina"
+      },
+      {
+        "n": 12,
+        "scheda": "La Caccia al Telling",
+        "capitolo": 12,
+        "titolo_capitolo": "Mostrare e raccontare",
+        "passata": null,
+        "parte": "Parte III — Le passate di pagina"
+      },
+      {
+        "n": 13,
+        "scheda": "La Lista Nera personale",
+        "capitolo": 13,
+        "titolo_capitolo": "Passata 6: la frase",
+        "passata": "Passata 6",
+        "parte": "Parte III — Le passate di pagina"
+      },
+      {
+        "n": 14,
+        "scheda": "La Checklist di Proofreading",
+        "capitolo": 14,
+        "titolo_capitolo": "Passata 7: bozze e refusi",
+        "passata": "Passata 7",
+        "parte": "Parte III — Le passate di pagina"
+      },
+      {
+        "n": 15,
+        "scheda": "Il Questionario per Beta Reader",
+        "capitolo": 15,
+        "titolo_capitolo": "I beta reader",
+        "passata": null,
+        "parte": "Parte IV — Oltre l'auto-editing"
+      },
+      {
+        "n": 16,
+        "scheda": "La Scelta del Professionista",
+        "capitolo": 16,
+        "titolo_capitolo": "Quando serve il professionista",
+        "passata": null,
+        "parte": "Parte IV — Oltre l'auto-editing"
+      },
+      {
+        "n": 17,
+        "scheda": "I Criteri del Pronto",
+        "capitolo": 17,
+        "titolo_capitolo": "Quando fermarsi",
+        "passata": null,
+        "parte": "Parte IV — Oltre l'auto-editing"
+      }
+    ],
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\La Revisione del Romanzo\\cover.png",
+    "riga": "Il metodo delle sette passate, con esempi prima e dopo riga per riga. È il libro da cui nascono le diciassette schede del kit."
+  },
+  "wb": {
+    "titolo": "Esercizi di Narratologia Essenziale",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Introduzione",
+          "Mappa: modulo per modulo, la Parte del manuale"
+        ]
+      },
+      {
+        "parte": "Moduli",
+        "capitoli": [
+          "Da dove parti: la scheda del tuo progetto",
+          "Fabula e intreccio: cosa è successo e come lo racconti",
+          "Tempo e ritmo: l'equazione TS/TR",
+          "Anacronie: flashback, prolessi, in medias res",
+          "Chi racconta: narratore e attendibilità",
+          "Focalizzazione: zero, interna, esterna",
+          "Personaggi: caratterizzazione e conflitto base",
+          "Il modello attanziale di Greimas",
+          "Spazio: fisico, simbolico, come personaggio",
+          "Dialoghi e discorso indiretto libero",
+          "Conflitto e tema: le quattro dimensioni",
+          "Archetipi: Propp, Campbell, Jung",
+          "Costruire da zero: i tre atti",
+          "Stile e voce: le scelte che si sentono",
+          "Diagnostica: i tuoi errori, non quelli degli altri"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Scaletta: il romanzo scena per scena",
+          "Diario di stesura",
+          "Scheda di analisi narratologica",
+          "Registro di lettura",
+          "Glossario da compilare",
+          "Il progetto completo: come rileggerlo",
+          "Nota dell'autore"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "Personaggi: caratterizzazione e conflitto base",
+      "paragrafi": [
+        "La Parte IV distingue i ruoli — protagonista e antagonista come poli del conflitto base — dalla caratterizzazione, cioè dagli strumenti con cui un personaggio diventa credibile: aspetto, linguaggio, azioni, reazioni degli altri, ambiente.",
+        "La caratterizzazione si divide in diretta (il narratore dichiara: «era avaro») e indiretta (il lettore lo deduce da un gesto). La seconda costa più righe e produce un effetto incomparabilmente più solido, per una ragione semplice: il lettore che ha dedotto una cosa da sé ci crede, mentre di una cosa che gli è stata dichiarata può dubitare.",
+        "Tutti gli esercizi di questo modulo lavorano su un principio: un personaggio esiste quando c'è uno scarto — fra quello che dice e quello che pensa, fra quello che vuole oggi e quello che vuole nella vita, fra come si vede e come lo vedono. Senza scarto hai una funzione, non una persona.",
+        "Elenca tre cose che il tuo protagonista dice ad alta voce in tre scene diverse, e accanto tre cose che pensa in quelle stesse scene e non dice. Le due colonne devono riferirsi allo stesso momento, altrimenti l'esercizio non misura niente.",
+        "Rileggi le due colonne. Se il contenuto è lo stesso, il personaggio non ha vita interiore: è un altoparlante di se stesso. Se sono diverse, la differenza ha un nome — prudenza, vergogna, calcolo, affetto — e quel nome è il primo dato caratteriale vero che hai."
+      ]
+    },
+    "sottotitolo_breve": "67 esercizi da fare a penna per progettare il tuo romanzo, dalla fabula al finale",
+    "intro": [
+      "Questo quaderno non si legge, si riempie. È il compagno di lavoro di Narratologia Essenziale: ogni modulo richiama in mezza pagina una Parte del manuale, senza rispiegarla, e poi ti mette al lavoro sul romanzo che stai scrivendo tu, non su un racconto qualsiasi. Gli esercizi hanno sempre un esito che puoi verificare da solo, spesso con una regola di lettura che ti dice dove il progetto non regge ancora.",
+      "I sessantasette esercizi tornano in sei formati riconoscibili (smonta, applica, trasforma, diagnostica, scheda, misura) e ogni modulo si chiude con sette giorni di pratica e con la pagina «Il tuo romanzo, passo N». Sono quindici pagine incorniciate che, rilette di seguito a quaderno finito, formano il progetto completo del tuo libro. In fondo trovi scaletta, diario di stesura, scheda di analisi e glossario da compilare."
+    ],
+    "impari": [
+      "Distinguere fabula e intreccio sul tuo romanzo e scegliere con consapevolezza da dove farlo cominciare",
+      "Misurare tempo e ritmo scena per scena, e decidere dove servono ellissi, flashback o anticipazioni",
+      "Scegliere narratore e focalizzazione, e scovare i salti di testa prima che li trovi il lettore",
+      "Dare ai personaggi uno scarto fra ciò che dicono e ciò che pensano, e un antagonista con le sue ragioni",
+      "Compilare il tuo schema attanziale, le quattro dimensioni del conflitto e i ruoli archetipici del cast",
+      "Costruire i tre atti con i momenti obbligati, tre finali alternativi e le dodici scene chiave",
+      "Misurare la tua prosa, trovare le parole-tic e cercare sul tuo testo i nove errori più comuni"
+    ],
+    "per_chi": [
+      "Chi ha letto Narratologia Essenziale e vuole trasformare la teoria in decisioni sul proprio romanzo",
+      "Chi ha un'idea, qualche personaggio e molte scene sparse, ma non ancora una storia progettata",
+      "Chi a metà stesura si è accorto di non sapere che cosa vuole davvero il protagonista",
+      "Chi lavora meglio con la penna in mano e uno spazio dove mettere per iscritto le proprie scelte"
+    ],
+    "meta_description": "Esercizi di narratologia per progettare il tuo romanzo: 67 esercizi in 15 moduli, dalla fabula al finale, da scrivere a penna. Il quaderno di lavoro.",
+    "keyword": "esercizi di narratologia",
+    "copertina": "D:\\Sviluppo\\Progetti Claude\\Ricerca\\kdp-quaderno-narratologia\\front 3 FIX.png",
+    "riga": "Il quaderno di lavoro del primo volume: 67 esercizi per progettare il tuo romanzo, dalla fabula al finale. Solo cartaceo, da scrivere a penna.",
+    "legati": [
+      "01",
+      "agg"
+    ]
+  },
+  "rom": {
+    "titolo": "Scrivere Romance che fanno battere il cuore",
+    "indice": [
+      {
+        "parte": null,
+        "capitoli": [
+          "Prefazione"
+        ]
+      },
+      {
+        "parte": "Parte I — Fondamenti",
+        "capitoli": [
+          "Il patto emotivo",
+          "Breve storia narratologica del Romance",
+          "HEA e HFN",
+          "Anatomia del desiderio",
+          "I tre codici"
+        ]
+      },
+      {
+        "parte": "Parte II — Architettura",
+        "capitoli": [
+          "La coppia come sistema",
+          "La ferita e il bisogno",
+          "Beat structure del Romance",
+          "Il conflitto interno come vera trama",
+          "Trama B, antagonisti, worldbuilding",
+          "Tempo, spazio, POV",
+          "Tropes come contratti narrativi",
+          "Spice e intimità"
+        ]
+      },
+      {
+        "parte": "Parte III — Scrittura",
+        "capitoli": [
+          "Voce e stile",
+          "Dialogo e sottotesto",
+          "Scena vs sommario",
+          "Revisione mirata",
+          "Patti rotti e patti rinnovati"
+        ]
+      },
+      {
+        "parte": null,
+        "capitoli": [
+          "Personaggi secondari e best friend crew",
+          "Sensibilità, trigger warnings, rappresentazione",
+          "Pacing e struttura del manoscritto seriale"
+        ]
+      },
+      {
+        "parte": "Appendici",
+        "capitoli": [
+          "Appendice A — Glossario narratologico del Romance",
+          "Appendice B — Bibliografia ragionata",
+          "Appendice C — 20 esercizi guidati",
+          "Appendice D — Schede beat sheet per i tre sottogeneri",
+          "Indice analitico"
+        ]
+      }
+    ],
+    "estratto": {
+      "capitolo": "La ferita e il bisogno",
+      "paragrafi": [
+        "Ogni personaggio Romance serio ha due ferite, e bisogna distinguerle perché operano in modi diversi.",
+        "La ferita esterna è l’evento: un tradimento, una perdita, un abbandono, un abuso. È ciò che raccontiamo quando, a metà libro, il personaggio si apre. È riconoscibile, drammatica, spesso citata esplicitamente.",
+        "La ferita interna è la credenza che il personaggio ha tratto da quell’evento: “se mi apro, mi distruggono”; “se amo, perdo”; “se mostro debolezza, mi abbandonano”. È la lettura errata che il personaggio fa del mondo a partire dalla propria biografia. È invisibile, onnipresente, e governa ogni reazione che il personaggio ha nelle scene con il coprotagonista.",
+        "La ferita esterna è il passato; la ferita interna è il presente. Il lavoro di caratterizzazione si concentra sulla seconda: è la ferita interna a produrre comportamenti, dialoghi, resistenze. La ferita esterna serve solo a giustificare, nel momento opportuno, la ferita interna.",
+        "Il bisogno del personaggio è il rovescio esatto della ferita interna. Se la ferita è “se mi apro, mi distruggono”, il bisogno è “imparare che aprirsi non distrugge”. Se la ferita è “se amo, perdo”, il bisogno è “imparare che amare è una perdita che si sceglie”.",
+        "Questa specularità non è ornamentale: è il dispositivo che rende la relazione con il coprotagonista la soluzione narrativa del personaggio. Il coprotagonista, attraverso azioni e non parole, dimostra che la credenza era falsa. La relazione è la terapia. L’HEA è il guarito."
+      ]
+    },
+    "sottotitolo_breve": "Patto emotivo, coppia, beat e tropi: la narratologia applicata alle storie d'amore",
+    "intro": [
+      "Il lettore di romance accetta quasi tutto, dal milionario improbabile al vampiro fuori dal tempo, ma non perdona una storia che promette emozioni e poi non le mantiene. Questo manuale tratta il romance come un sistema con regole sue: parte dal patto emotivo che stringi con chi legge, dal lieto fine inteso come vincolo che genera la storia e dalle pressioni diverse dei tre codici che affronta, contemporary, dark e romantasy.",
+      "Poi entra in officina: la coppia come sistema, la ferita interna e il bisogno che ne è il rovescio, i beat dal primo incontro al grand gesture, il conflitto interno come vera trama, i tropi come contratti, la tensione sensuale costruita senza esplicito, fino a voce, dialogo e revisione. Ogni capitolo si chiude con uno schema grafico, un caso studio su un romance di successo e un esercizio da fare subito sulla tua storia."
+    ],
+    "impari": [
+      "Le tre clausole del patto emotivo con il lettore, come si stipula e in quali modi si rompe",
+      "Quando scegliere un lieto fine definitivo (HEA) o provvisorio (HFN), e che cosa non è lieto fine",
+      "Come costruire la coppia come sistema: archetipi di coppia, chimica ed equilibrio del potere",
+      "La sequenza dei beat dal meet-cute al grand gesture, quali sono obbligatori e come gestire il black moment",
+      "Come usare, combinare e ribaltare i tropi senza tradire le aspettative del lettore",
+      "Tensione sensuale, sottotesto nel dialogo e alternanza fra scena e sommario per governare l'escalation emotiva",
+      "Come gestire secondari, sensibilità e rappresentazione, e progettare una saga con cliffhanger che non tradiscono"
+    ],
+    "per_chi": [
+      "Chi vuole scrivere romance sul serio, alla prima stesura o dopo aver già pubblicato",
+      "Chi scrive contemporary, dark o romantasy e vuole conoscere le pressioni specifiche del proprio codice",
+      "Chi ha una storia d'amore che sulla carta funziona ma non riesce a coinvolgere il lettore",
+      "Chi progetta una serie e deve tenere vivo il patto con il lettore da un volume all'altro"
+    ],
+    "meta_description": "Come scrivere un romance che funziona: patto emotivo, coppia, ferita, beat, tropi e tensione sensuale, con casi studio ed esercizi per la tua storia.",
+    "keyword": "come scrivere un romance",
+    "copertina": "D:\\Self Publishing\\Libro Narratologia\\Narratologia Romance\\Scrivere romance e cuore meccanico.png",
+    "riga": "Chimica fra i personaggi, tensione romantica che cresce, conflitti emotivi e un finale che resta."
+  },
+  "_home": {
+    "persona": {
+      "@type": "Person",
+      "@id": "https://rosariodileva.com/autore#author",
+      "name": "Rosario Di Leva",
+      "url": "https://rosariodileva.com/autore",
+      "jobTitle": "Autore",
+      "knowsAbout": [
+        "Scrittura creativa",
+        "Narratologia",
+        "Revisione del romanzo",
+        "Self publishing"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/rosario_di_leva_1980",
+        "https://x.com/rosario_di_leva",
+        "https://rosariodileva.substack.com",
+        "https://rosariodileva.wordpress.com",
+        "https://www.amazon.it/stores/Rosario-Di-Leva/author/B0FXP5KZWM"
+      ]
+    }
+  }
+}

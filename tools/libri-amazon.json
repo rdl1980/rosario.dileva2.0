@@ -1,0 +1,118 @@
+{
+  "_nota": "Dati verificati su amazon.it il 25 settembre 2026 (schede Kindle e cartaceo). Si aggiornano a mano: sono la fonte del generatore tools/make-libri.py.",
+  "collana": {
+    "asin": "B0GPM7S8NZ",
+    "nome": "Officina della Narrazione",
+    "nome_esteso": "Officina della Narrazione - Strumenti, Metodo e Strategia per Scrittori Contemporanei",
+    "titoli_su_amazon": 11
+  },
+  "libri": [
+    {
+      "key": "01", "vol": 1, "slug": "narratologia-essenziale", "fase": "progettare",
+      "titolo": "Narratologia Essenziale",
+      "sottotitolo": "Manuale pratico di narratologia. Struttura, tempo, archetipi e tema: gli ingranaggi invisibili della narrazione",
+      "kindle": { "asin": "B0FZLK9KY5", "pagine": 265, "data": "2025-11-04" },
+      "cartaceo": { "asin": "B0FZLPHPMJ", "isbn": "979-8272947284", "pagine": 151, "data": "2025-11-04", "formato": "21,6 × 27,9 cm" },
+      "recensioni": [
+        { "autore": "Valerio Di Rosa", "stelle": 5, "data": "2026-01-23", "formato": "Copertina flessibile",
+          "titolo": "Manuale veramente ben fatto e più che solo essenziale",
+          "testo": "Manuale chiaro, pratico e mai pesante. Spiega la narratologia in modo semplice e subito applicabile alla scrittura. Bellissima la parte sull’arco trasformativo e sul lavoro di Dara Marks, davvero illuminante. Consigliatissimo a chi vuole capire come funzionano davvero le storie." }
+      ]
+    },
+    {
+      "key": "02", "vol": 2, "slug": "narratologia-applicata", "fase": "progettare",
+      "titolo": "Narratologia Applicata",
+      "sottotitolo": "Conflitto, difetto e arco di trasformazione",
+      "kindle": { "asin": "B0GLRC4HHF", "pagine": 139, "data": "2026-02-05" },
+      "cartaceo": { "asin": "B0GM4KNR6M", "isbn": "979-8247118299", "pagine": 137, "data": "2026-02-05", "formato": "15,2 × 22,9 cm" },
+      "recensioni": [
+        { "autore": "Maria Paola", "stelle": 5, "data": "2026-06-20", "formato": "Copertina flessibile",
+          "titolo": "Chiarezza e utilità",
+          "testo": "Ho acquistato e letto diversi lavori di Rosario Di Leva. Poiché ho letto davvero tanto di scrittura creativa e narratologia, sento di essere in grado di fare dei confronti. Confronti che mi portano ad affermare che, tra tante buone e discrete opere, Di Leva compie un'operazione eccellente costruendo i suoi testi con una marcia in più di chiarezza e precisione, rendendoli un ottimo strumento di lavoro." }
+      ]
+    },
+    {
+      "key": "03", "vol": 3, "slug": "architettura-dei-romanzi", "fase": "progettare",
+      "titolo": "L'Architettura dei Romanzi",
+      "sottotitolo": "Lezioni di narrativa per progettare romanzi straordinari attraverso la scrittura creativa e immersiva",
+      "kindle": { "asin": "B0GPPNMSFG", "pagine": 201, "data": "2026-02-23" },
+      "cartaceo": { "asin": "B0GPR8SMHY", "isbn": "979-8249487010", "pagine": 202, "data": "2026-02-23", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "04", "vol": 4, "slug": "come-promuovere-un-romanzo", "fase": "pubblicare",
+      "titolo": "Come Promuovere un Romanzo in Italia Oggi",
+      "sottotitolo": "Strategia concreta dal pre-lancio alla lunga coda per autori italiani, indipendenti e pubblicati",
+      "kindle": { "asin": "B0GNB3BH8D", "pagine": 131, "data": "2026-02-13" },
+      "cartaceo": { "asin": "B0GNS2PXVP", "isbn": "979-8248640515", "pagine": 115, "data": "2026-02-16", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "05", "vol": 5, "slug": "scrivere-per-davvero", "fase": "scrivere",
+      "titolo": "Scrivere per Davvero",
+      "sottotitolo": "Manuale di scrittura creativa per costruire una prosa professionale, coinvolgente e pubblicabile",
+      "kindle": { "asin": "B0GPN3FD8R", "pagine": null, "data": "2026-02-22" },
+      "cartaceo": { "asin": "B0GPPL8G64", "isbn": "979-8249386030", "pagine": 217, "data": "2026-02-22", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "06", "vol": 6, "slug": "come-scrivere-un-thriller", "fase": "scrivere",
+      "titolo": "Come Scrivere un Thriller di Successo",
+      "sottotitolo": "Metodo, struttura e psicologia della tensione narrativa",
+      "kindle": { "asin": "B0GPMCXNGD", "pagine": 133, "data": "2026-02-21" },
+      "cartaceo": { "asin": "B0GPN3QN1G", "isbn": "979-8249311971", "pagine": 133, "data": "2026-02-21", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "07", "vol": 7, "slug": "come-scrivere-un-incipit", "fase": "scrivere",
+      "titolo": "Come Scrivere l'Incipit Perfetto",
+      "sottotitolo": "Metodo, struttura e strategie per aprire un romanzo che il lettore non abbandona",
+      "kindle": { "asin": "B0GRPH3K5T", "pagine": 222, "data": "2026-03-07" },
+      "cartaceo": { "asin": "B0GRR51WJ2", "isbn": "979-8251151572", "pagine": 220, "data": "2026-03-07", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "08", "vol": 8, "slug": "scrivere-dialoghi", "fase": "scrivere",
+      "titolo": "Scrivere Dialoghi che Funzionano",
+      "sottotitolo": "Tecniche e psicologia delle conversazioni che muovono la storia",
+      "kindle": { "asin": "B0GSLFKZ6Z", "pagine": 84, "data": "2026-03-14" },
+      "cartaceo": { "asin": "B0GSMZ6Q5S", "isbn": "979-8252111223", "pagine": 104, "data": "2026-03-14", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "09", "vol": 9, "slug": "architettura-dei-personaggi", "fase": "progettare",
+      "titolo": "L'Architettura dei Personaggi che Funzionano",
+      "sottotitolo": "Come costruire personaggi che generano conflitto, trasformazione e storie impossibili da abbandonare",
+      "kindle": { "asin": "B0GSLJ8XL9", "pagine": 257, "data": "2026-03-29" },
+      "cartaceo": { "asin": "B0GVF6MVPF", "isbn": "979-8254217930", "pagine": 205, "data": "2026-03-29", "formato": "15,2 × 22,9 cm" },
+      "recensioni": [
+        { "autore": "Valerio Di Rosa", "stelle": 5, "data": "2026-04-09", "formato": "Formato Kindle",
+          "titolo": "Completo",
+          "testo": "Libro molto ampio che copre tantissimi aspetti narratologici sulla costruzione dei personaggi. Mi è stato utile nella preparazione del mio secondo romanzo." }
+      ]
+    },
+    {
+      "key": "10", "vol": 10, "slug": "revisione-del-romanzo", "fase": "revisionare",
+      "titolo": "La Revisione del Romanzo",
+      "sottotitolo": "Il metodo completo di auto-editing per trasformare la prima stesura in un libro pubblicabile",
+      "kindle": { "asin": "B0HC6BP8DB", "pagine": 294, "data": "2026-07-30" },
+      "cartaceo": { "asin": "B0HC8MGFFZ", "isbn": "979-8189953323", "pagine": 276, "data": "2026-07-30", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "wb", "vol": 11, "slug": "esercizi-di-narratologia", "fase": "progettare",
+      "titolo": "Esercizi di Narratologia Essenziale",
+      "sottotitolo": "Il quaderno di lavoro del manuale Narratologia Essenziale: 67 esercizi per progettare il tuo romanzo, dalla fabula al finale",
+      "compagno_di": "01",
+      "cartaceo": { "asin": "B0HFDTWW3T", "isbn": "979-8192883983", "pagine": 176, "data": "2026-08-15", "formato": "17,8 × 25,4 cm" }
+    },
+    {
+      "key": "agg", "vol": null, "slug": "narratologia-essenziale-2026", "fase": "progettare",
+      "titolo": "Narratologia Essenziale, Aggiornamento 2026",
+      "sottotitolo": "Gli elementi fondamentali della narrazione spiegati con metodo, chiarezza e applicazione",
+      "aggiorna": "01",
+      "kindle": { "asin": "B0GX7R2TL4", "pagine": 351, "data": "2026-04-17" },
+      "cartaceo": { "asin": "B0GXP5WS2Y", "isbn": "979-8257735745", "pagine": 259, "data": "2026-04-17", "formato": "15,2 × 22,9 cm" }
+    },
+    {
+      "key": "rom", "vol": null, "slug": "scrivere-romance", "fase": "scrivere",
+      "titolo": "Scrivere Romance che Fanno Battere il Cuore",
+      "sottotitolo": "Metodo, struttura e tecniche per creare storie d'amore irresistibili e indimenticabili",
+      "kindle": { "asin": "B0GX312JNZ", "pagine": 141, "data": "2026-04-16" },
+      "cartaceo": { "asin": "B0GXHH5GCY", "isbn": "979-8257515422", "pagine": 128, "data": "2026-04-15", "formato": "15,2 × 22,9 cm" }
+    }
+  ]
+}

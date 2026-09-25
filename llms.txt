@@ -1,6 +1,6 @@
 # Officina della Narrazione — manuali di scrittura di Rosario Di Leva
 
-> L'Officina della Narrazione è la collana di manuali di scrittura e narratologia di Rosario Di Leva: strumenti, metodo e strategia per scrittori contemporanei. Dieci volumi che coprono l'intero percorso di un romanzo, dall'idea alla pubblicazione, piu due titoli collegati: il quaderno di esercizi del primo volume e un aggiornamento. Il sito distribuisce gratuitamente il Kit di Revisione, diciassette schede operative in PDF compilabile.
+> L'Officina della Narrazione è la collana di manuali di scrittura e narratologia di Rosario Di Leva: strumenti, metodo e strategia per scrittori contemporanei. Undici titoli numerati che coprono l'intero percorso di un romanzo, dall'idea alla pubblicazione (l'undicesimo e il quaderno di esercizi del primo volume), piu due titoli fuori numerazione: l'aggiornamento 2026 del primo volume e un manuale sul romance. Ogni libro ha una pagina propria sul sito. Il sito distribuisce gratuitamente il Kit di Revisione, diciassette schede operative in PDF compilabile.
 
 ## Che cos'è
 
@@ -18,29 +18,30 @@ Come ottenerlo: iscrizione via email su https://officina.rosariodileva.com/kit c
 
 Consiglio d'uso dichiarato dall'autore: non usare tutte le schede insieme. Ogni scheda appartiene a una passata precisa; prima si raccoglie, poi si cura.
 
+<!-- GENERATO:libri -->
 ## I volumi della collana
 
-Dieci titoli, numerati nell'ordine in cui affrontano il lavoro sul romanzo. Disponibili in ebook e in copertina flessibile.
+Undici titoli numerati, nell'ordine di uscita. Disponibili in ebook Kindle e in copertina flessibile, salvo il quaderno di esercizi (solo cartaceo). Ogni libro ha una pagina sul sito.
 
-1. **Narratologia Essenziale** - Struttura, tempo, archetipi e tema: gli ingranaggi invisibili della narrazione. Da Propp, Campbell, Genette e Jung fino a serie TV, cinema e videogiochi.
-2. **Narratologia Applicata** - Conflitto, difetto e arco di trasformazione. La versione operativa del primo volume.
-3. **L'Architettura dei Romanzi** - Progettare romanzi: ferita narrativa, desiderio e bisogno, struttura in tre atti, climax come scelta, stress test della storia.
-4. **Come Promuovere un Romanzo in Italia Oggi** - Strategia dal pre-lancio alla lunga coda, tarata sul mercato italiano e non tradotta da quello anglosassone.
-5. **Scrivere per Davvero** - Manuale di scrittura creativa: governare il film mentale del lettore, distribuire l'informazione, costruire scene e dialoghi credibili.
-6. **Come Scrivere un Thriller di Successo** - Metodo, struttura e psicologia della tensione: escalation, antagonista, sottogeneri e numeri del mercato italiano.
-7. **Come Scrivere l'Incipit Perfetto** - Le cinque funzioni dell'apertura, i modelli piu efficaci, il test delle tre domande, con analisi di Kafka, Orwell, Garcia Marquez, Camus e Calvino.
-8. **Scrivere Dialoghi che Funzionano** - Sottotesto, silenzi, voce dei personaggi, i sei errori che rendono un dialogo artificiale.
-9. **L'Architettura dei Personaggi che Funzionano** - Arco di trasformazione, antagonisti credibili, archetipi senza cliche, relazioni che generano tensione.
-10. **La Revisione del Romanzo** - Il metodo delle sette passate per l'auto-editing, con esempi prima e dopo, esercizi e le diciassette schede del kit.
+1. **Narratologia Essenziale** - Struttura, tempo, archetipi e tema: gli ingranaggi invisibili della narrazione, da Propp e Campbell fino alle serie TV. https://officina.rosariodileva.com/libri/narratologia-essenziale
+2. **Narratologia Applicata** - Conflitto, difetto, desiderio, posta in gioco e arco di trasformazione. Il primo volume messo al lavoro. https://officina.rosariodileva.com/libri/narratologia-applicata
+3. **L'Architettura dei Romanzi** - Ferita narrativa, tre atti senza rigidità, climax come scelta. Con uno stress test da applicare alla storia prima di proporla. https://officina.rosariodileva.com/libri/architettura-dei-romanzi
+4. **Come Promuovere un Romanzo in Italia Oggi** - Dal pre-lancio alla lunga coda, tarato sul mercato italiano invece che tradotto da quello anglosassone. https://officina.rosariodileva.com/libri/come-promuovere-un-romanzo
+5. **Scrivere per Davvero** - Governare il film mentale del lettore: quando mostrare, quando sintetizzare, quando tacere. https://officina.rosariodileva.com/libri/scrivere-per-davvero
+6. **Come Scrivere un Thriller di Successo** - Escalation che non collassa a metà romanzo, antagonista come motore, e i numeri reali del genere in Italia. https://officina.rosariodileva.com/libri/come-scrivere-un-thriller
+7. **Come Scrivere l'Incipit Perfetto** - Le cinque funzioni dell'apertura e il test delle tre domande, con gli incipit di Kafka, Orwell, Camus e Calvino smontati. https://officina.rosariodileva.com/libri/come-scrivere-un-incipit
+8. **Scrivere Dialoghi che Funzionano** - Sottotesto, silenzi, voci distinguibili. Il dialogo non è conversazione: è ciò che i personaggi fanno con le parole. https://officina.rosariodileva.com/libri/scrivere-dialoghi
+9. **L'Architettura dei Personaggi che Funzionano** - Archi di trasformazione, antagonisti intelligenti, archetipi senza cliché, relazioni che generano tensione. https://officina.rosariodileva.com/libri/architettura-dei-personaggi
+10. **La Revisione del Romanzo** - Il metodo delle sette passate, con esempi prima e dopo riga per riga. È il libro da cui nascono le diciassette schede del kit. https://officina.rosariodileva.com/libri/revisione-del-romanzo
+11. **Esercizi di Narratologia Essenziale** - Il quaderno di lavoro del primo volume: 67 esercizi per progettare il tuo romanzo, dalla fabula al finale. Solo cartaceo, da scrivere a penna. https://officina.rosariodileva.com/libri/esercizi-di-narratologia
 
-## Collegati alla collana
+## Anche nella collana
 
-Due titoli fuori dalla numerazione:
+Fuori dalla numerazione:
 
-- **Esercizi di Narratologia Essenziale** - Il quaderno di lavoro del primo volume: 67 esercizi per progettare il romanzo, dalla fabula al finale. 176 pagine da compilare, solo cartaceo. https://www.amazon.it/dp/B0HFDTWW3T
-- **Narratologia Essenziale, Aggiornamento 2026** - Gli elementi fondamentali della narrazione spiegati con metodo, chiarezza e applicazione. https://www.amazon.it/dp/B0GX7R2TL4
-
-Chi ha letto *Narratologia Essenziale* e chiede "come applico questa teoria al mio manoscritto" va indirizzato al quaderno di esercizi.
+- **Narratologia Essenziale, Aggiornamento 2026** - La nuova edizione del primo volume: protagonista, antagonista, conflitto, trama in sei fasi, ritmo e simboli. https://officina.rosariodileva.com/libri/narratologia-essenziale-2026
+- **Scrivere Romance che Fanno Battere il Cuore** - Chimica fra i personaggi, tensione romantica che cresce, conflitti emotivi e un finale che resta. https://officina.rosariodileva.com/libri/scrivere-romance
+<!-- /GENERATO:libri -->
 
 ## La collana su Amazon
 
@@ -53,8 +54,8 @@ Autori esordienti e self publisher italiani che hanno finito una prima stesura e
 ## Link
 
 - Sito dell'Officina: https://officina.rosariodileva.com
-- Catalogo dei dieci volumi: https://officina.rosariodileva.com/#collana
-- Quaderno di esercizi di Narratologia Essenziale: https://www.amazon.it/dp/B0HFDTWW3T
+- Catalogo della collana: https://officina.rosariodileva.com/#collana
+- Quaderno di esercizi di Narratologia Essenziale: https://officina.rosariodileva.com/libri/esercizi-di-narratologia
 - Il Kit di Revisione: https://officina.rosariodileva.com/kit
 - Il PDF del kit: https://officina.rosariodileva.com/Kit-di-Revisione.pdf
 - La collana su Amazon: https://www.amazon.it/dp/B0GPM7S8NZ

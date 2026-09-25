@@ -537,6 +537,143 @@ section.alt { background: var(--paper-warm); border-block: 1px solid var(--rule)
   .vol-fase { grid-column: 2; padding-top: .5rem; }
 }
 
+/* ── Pagina del singolo libro ─────────────────────────── */
+.briciole {
+  font-size: .86rem;
+  color: var(--ink-soft);
+  padding-top: 1.6rem;
+}
+.briciole a { color: var(--ink-soft); }
+.briciole a:hover { color: var(--accent); }
+.briciole span[aria-current] { color: var(--ink); }
+
+.libro-hero { padding-top: 2.6rem; }
+.libro-testa {
+  display: grid;
+  grid-template-columns: minmax(200px, 300px) 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+.libro-cover { margin: 0; }
+.libro-cover img {
+  width: 100%;
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 0 var(--rule), 6px 10px 24px rgba(38,33,30,.14);
+}
+.libro-info h1 { font-size: clamp(2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
+.libro-sotto {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 1.08em;
+  max-width: 52ch;
+}
+.libro-dati {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .25rem 1.2rem;
+  margin: 1.4rem 0 1.6rem;
+  padding: 1rem 0;
+  border-block: 1px solid var(--rule);
+  font-size: .93rem;
+  max-width: 460px;
+}
+.libro-dati dt { color: var(--ink-soft); font-variant: small-caps; letter-spacing: .08em; }
+.libro-dati dd { margin: 0; }
+.libro-cta { display: flex; flex-wrap: wrap; gap: .7rem; margin: 0; }
+.libro-cta-nota { font-size: .84rem; color: var(--ink-soft); margin-top: .8rem; }
+
+.libro-intro p { font-size: 1.06em; }
+.due-colonne {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem 3rem;
+  margin-top: 2.4rem;
+}
+.schede.una-col { columns: 1; }
+
+.indice {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: .4rem 3rem;
+  margin-top: 1.8rem;
+}
+.indice-parte { break-inside: avoid; }
+.indice-parte h3 {
+  font-size: 1.02rem;
+  color: var(--accent);
+  margin: 1.2rem 0 .4rem;
+}
+.indice ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+}
+.indice li {
+  padding: .32rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: .97rem;
+}
+.indice-unica ol { columns: 2; column-gap: 3rem; }
+.indice-unica li { break-inside: avoid; }
+
+.estratto {
+  margin: 1rem 0 0;
+  font-size: 1.04em;
+}
+.estratto p:last-child { margin-bottom: 0; }
+.estratto-etichetta {
+  font-variant: small-caps;
+  letter-spacing: .12em;
+  font-size: .85rem;
+  color: var(--accent);
+  margin: 1.6rem 0 .4rem;
+}
+.estratto-nota { font-size: .9rem; color: var(--ink-soft); font-style: italic; }
+
+.recensioni { display: grid; gap: 1.4rem; margin-top: 1.4rem; }
+.recensione { margin: 0; padding-left: 1.3rem; border-left: 2px solid var(--accent); }
+.recensione blockquote { margin: 0 0 .5rem; font-style: italic; }
+.recensione figcaption { font-size: .88rem; color: var(--ink-soft); }
+
+.compagni { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-top: 1.4rem; }
+.compagno {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 1rem;
+  align-items: start;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: 1rem;
+}
+.compagno img { border: 1px solid var(--rule); }
+.compagno strong { font-family: var(--serif-display); display: block; line-height: 1.25; margin-bottom: .25rem; }
+.compagno span { font-size: .9rem; color: var(--ink-soft); }
+.compagno:hover strong { color: var(--accent); }
+
+.libro-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.4rem;
+  font-size: .95rem;
+}
+.libro-nav a { text-decoration: none; color: var(--ink); max-width: 46%; }
+.libro-nav a:hover { color: var(--accent); }
+.libro-nav small { display: block; color: var(--ink-soft); font-variant: small-caps; letter-spacing: .08em; }
+.libro-nav .succ { text-align: right; margin-left: auto; }
+
+@media (max-width: 760px) {
+  .libro-testa { grid-template-columns: 1fr; gap: 1.8rem; }
+  .libro-cover { max-width: 230px; }
+  .indice-unica ol { columns: 1; }
+  .libro-nav a { max-width: 100%; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; }

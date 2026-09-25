@@ -2,14 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://officina.rosariodileva.com/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-25</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://officina.rosariodileva.com/kit</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/narratologia-essenziale</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/narratologia-applicata</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/architettura-dei-romanzi</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/come-promuovere-un-romanzo</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/scrivere-per-davvero</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/come-scrivere-un-thriller</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/come-scrivere-un-incipit</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/scrivere-dialoghi</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/architettura-dei-personaggi</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/revisione-del-romanzo</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/esercizi-di-narratologia</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/narratologia-essenziale-2026</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://officina.rosariodileva.com/libri/scrivere-romance</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
