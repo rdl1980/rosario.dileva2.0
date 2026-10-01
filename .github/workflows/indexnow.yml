@@ -1,0 +1,43 @@
+name: IndexNow
+
+# Dopo ogni push su main, avvisa Bing e gli altri motori IndexNow delle pagine
+# HTML cambiate. Lanciato a mano (workflow_dispatch) invia tutta la sitemap.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.html"
+      - "sitemap.xml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    name: Avvisa IndexNow
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      # GitHub Pages pubblica in un paio di minuti: se avvisiamo prima, il
+      # motore puo' trovare ancora la versione vecchia (o non trovare la chiave).
+      - name: Attende il deploy di GitHub Pages
+        run: sleep 150
+
+      - name: Invia le pagine cambiate
+        if: github.event_name == 'push'
+        run: |
+          mapfile -t files < <(git diff --name-only HEAD~1 HEAD -- '*.html')
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "Nessuna pagina HTML cambiata: niente da inviare."
+            exit 0
+          fi
+          python3 .github/scripts/indexnow.py "${files[@]}"
+
+      - name: Invia tutta la sitemap
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 .github/scripts/indexnow.py
